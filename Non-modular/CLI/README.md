@@ -10,6 +10,8 @@ Make sure `JAVA_HOME` is set to Java 11.
 
 1. Linux / Mac
 
+If you run on Linux or Mac, follow these steps:
+
     cd Non-modular/CLI/hellofx/
     export PATH_TO_FX=path/to/javafx-sdk-11/lib
     javac --module-path $PATH_TO_FX --add-modules=javafx.controls -d out $(find src -name "*.java")
@@ -35,6 +37,8 @@ To create a fat jar:
 
 
 2. Windows
+
+If you run on Windows, follow these steps:
 
     cd Non-modular/CLI/hellofx/
     set PATH_TO_FX="path\to\javafx-sdk-11\lib"
