@@ -2,7 +2,11 @@
 
 JavaFX 11 samples to run with different options and build tools.
 
-Make sure `JAVA_HOME` is set to Java 11.
+Download an appropriate JDK 11 for your operating system. Make sure `JAVA_HOME` 
+is properly set to the Java 11 installation directory. 
+
+Download [JavaFX SDK](https://gluonhq.com/products/javafx/) for your operate 
+system and unzip to a desired location.
 
 ## Non-modular - CLI
 
@@ -12,7 +16,7 @@ Make sure `JAVA_HOME` is set to Java 11.
 
 If you run on Linux or Mac, follow these steps:
 
-    cd Non-modular/CLI/hellofx/
+    cd Non-modular/CLI/hellofx
     export PATH_TO_FX=path/to/javafx-sdk-11/lib
     javac --module-path $PATH_TO_FX --add-modules=javafx.controls -d out $(find src -name "*.java")
     
@@ -40,7 +44,7 @@ To create a fat jar:
 
 If you run on Windows, follow these steps:
 
-    cd Non-modular/CLI/hellofx/
+    cd Non-modular\CLI\hellofx
     set PATH_TO_FX="path\to\javafx-sdk-11\lib"
     dir /s /b src\*.java > sources.txt & javac --module-path %PATH_TO_FX% --add-modules=javafx.controls -d out @sources.txt & del sources.txt
 

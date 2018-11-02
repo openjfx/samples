@@ -1,14 +1,19 @@
 buildscript {
     repositories {
         mavenCentral()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
     }
     dependencies {
         classpath 'com.google.gradle:osdetector-gradle-plugin:1.6.0'
+        classpath 'org.javamodularity:moduleplugin:1.1.1'
     }
 }
 
 apply plugin: 'application'
 apply plugin: 'com.google.osdetector'
+apply plugin: 'org.javamodularity.moduleplugin'
 
 ext.platform = osdetector.os == 'osx' ? 'mac' : osdetector.os == 'windows' ? 'win' : osdetector.os
 
@@ -20,39 +25,25 @@ dependencies {
     compile "org.openjfx:javafx-base:11:$platform"
     compile "org.openjfx:javafx-graphics:11:$platform"
     compile "org.openjfx:javafx-controls:11:$platform"
-
-    /* uncomment for cross-platform jar:
-    compile "org.openjfx:javafx-graphics:11:win"
-    compile "org.openjfx:javafx-graphics:11:linux"
-    compile "org.openjfx:javafx-graphics:11:mac"
-    */
 }
 
-compileJava {
-    doFirst {
-        options.compilerArgs = [
-                '--module-path', classpath.asPath,
-                '--add-modules', 'javafx.controls'
-        ]
-    }
-}
+mainClassName = 'hellofx.HelloFX'
 
-run {
-    doFirst {
-        jvmArgs = [
-                '--module-path', classpath.asPath,
-                '--add-modules', 'javafx.controls'
-        ]
-    }
-}
+def java_home = System.getenv('JAVA_HOME')
+def fx_jmods = System.getenv('PATH_TO_FX_MODS')
+task jlink(type: Exec) {
+    dependsOn 'clean'
+    dependsOn 'jar'
 
-mainClassName = 'hellofx.Launcher'
+    workingDir 'build'
 
-jar {
-    manifest {
-        attributes 'Main-Class': 'hellofx.Launcher'
+    if (java_home == null) {
+        throw new RuntimeException("java_home is not defined.")
     }
-    from {
-        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    if (fx_jmods == null) {
+        throw new RuntimeException("fx_jmods is not defined.")
     }
+    commandLine "${java_home}/bin/jlink", '--module-path', "libs${File.pathSeparatorChar}${fx_jmods}",
+            '--add-modules', 'hellofx', '--output', 'hellofx', '--strip-debug',
+            '--compress', '2', '--no-header-files', '--no-man-pages'
 }

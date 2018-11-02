@@ -2,7 +2,14 @@
 
 JavaFX 11 samples to run with different options and build tools.
 
-Make sure `JAVA_HOME` is set to Java 11.
+Download an appropriate JDK 11 for your operating system. Make sure `JAVA_HOME` 
+is properly set to the Java 11 installation directory. 
+
+Download [JavaFX SDK](https://gluonhq.com/products/javafx/) for your operate 
+system and unzip to a desired location.
+
+Download [JavaFX jmods](https://gluonhq.com/products/javafx/) for your operate 
+system and unzip to a desired location.
 
 ## Modular - CLI
 
@@ -12,7 +19,7 @@ Make sure `JAVA_HOME` is set to Java 11.
 
 If you run on Linux or Mac, follow these steps:
 
-    cd Modular/CLI/hellofx/
+    cd Modular/CLI/hellofx
     export PATH_TO_FX=path/to/javafx-sdk-11/lib
     export PATH_TO_FX_MODS=path/to/javafx-jmods-11
     javac --module-path $PATH_TO_FX -d mods/hellofx $(find src -name "*.java")
@@ -30,7 +37,7 @@ To create and run a custom JRE:
 
 If you run on Windows, follow these steps:
 
-    cd Modular/CLI/hellofx/
+    cd Modular\CLI\hellofx
     set PATH_TO_FX="path\to\javafx-sdk-11\lib"
     set PATH_TO_FX_MODS="path\to\javafx-jmods-11"
     dir /s /b src\*.java > sources.txt & javac --module-path %PATH_TO_FX% -d mods/hellofx @sources.txt & del sources.txt
