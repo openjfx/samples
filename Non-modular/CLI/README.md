@@ -8,8 +8,7 @@ Make sure `JAVA_HOME` is set to Java 11.
 
 `hellofx` sample non-modular project to run on command line, without build tools
 
-Linux / Mac
------------
+### Linux / Mac
 
 If you run on Linux or Mac, follow these steps:
 
@@ -37,8 +36,7 @@ To create a fat jar:
     java -jar libs/hellofx.jar
 
 
-Windows
--------
+### Windows
 
 If you run on Windows, follow these steps:
 
