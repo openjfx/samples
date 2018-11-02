@@ -18,7 +18,7 @@ To run the project:
 
 To create custom JRE:
 
-Download [JavaFX jmods](https://gluonhq.com/products/javafx/) for your operate 
+Download [JavaFX jmods](https://gluonhq.com/products/javafx/) for your operating 
 system and unzip to a desired location.
 
     export PATH_TO_FX_MODS=path/to/javafx-jmods-11
@@ -38,7 +38,7 @@ To run the project:
 
 To create custom JRE:
 
-Download [JavaFX jmods](https://gluonhq.com/products/javafx/) for your operate 
+Download [JavaFX jmods](https://gluonhq.com/products/javafx/) for your operating 
 system and unzip to a desired location.
 
     export PATH_TO_FX_MODS=path/to/javafx-jmods-11

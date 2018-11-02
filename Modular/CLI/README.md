@@ -5,10 +5,10 @@ JavaFX 11 samples to run with different options and build tools.
 Download an appropriate JDK 11 for your operating system. Make sure `JAVA_HOME` 
 is properly set to the Java 11 installation directory. 
 
-Download [JavaFX SDK](https://gluonhq.com/products/javafx/) for your operate 
+Download [JavaFX SDK](https://gluonhq.com/products/javafx/) for your operating 
 system and unzip to a desired location.
 
-Download [JavaFX jmods](https://gluonhq.com/products/javafx/) for your operate 
+Download [JavaFX jmods](https://gluonhq.com/products/javafx/) for your operating 
 system and unzip to a desired location.
 
 ## Modular - CLI
