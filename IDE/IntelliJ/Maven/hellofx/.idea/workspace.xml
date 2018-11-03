@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="83c84b75-dbb7-4074-bb93-ae1be8929403" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1700168303">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="fxml" value="1" />
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/Scene.fxml">
+          <provider selected="true" editor-type-id="text-editor" />
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/FXMLController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/MainApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/Downloads/CAMVOYAGE-master/CamVoyage" value="1484403362000" />
+        <entry key="$USER_HOME$/Gluon/2048fx" value="2881921750000" />
+        <entry key="$USER_HOME$/Gluon/Conferences/SVQJUG" value="1442861357000" />
+        <entry key="$USER_HOME$/Gluon/GluonCode/Gluon/Forks/jpereda-gluon2/modules/charm/glisten" value="44347401294000" />
+        <entry key="$USER_HOME$/Gluon/GluonCode/PrivateOSS/GluonAutentia" value="1487326600000" />
+        <entry key="$USER_HOME$/Gluon/GluonCode/PrivateOSS/GluonMobileJUG" value="1487349572000" />
+        <entry key="$USER_HOME$/Gluon/GluonCode/PrivateOSS/jpereda-private-scenebuilder" value="4441751338000" />
+        <entry key="$USER_HOME$/Gluon/OSS/FXyz3D" value="7402273870000" />
+        <entry key="$USER_HOME$/Gluon/OSS/Forks/jpereda-samples-2/Beacons" value="1476995024000" />
+        <entry key="$USER_HOME$/Gluon/OSS/Forks/jpereda-samples-2/FiftyStates" value="1476995373000" />
+        <entry key="$USER_HOME$/Gluon/OSS/Forks/jpereda-samples-2/GluonSQLite" value="1476995459000" />
+        <entry key="$USER_HOME$/Gluon/OSS/ensemble" value="1441396030000" />
+        <entry key="$USER_HOME$/Gluon/OSS/jfxtras-labs-samples" value="2882947078000" />
+        <entry key="$USER_HOME$/Gluon/OSS/jp-FXyz" value="7342937358000" />
+        <entry key="$USER_HOME$/Gluon/Plugins/jp3-intellij-plugin" value="1455545124000" />
+        <entry key="$USER_HOME$/Gluon/Plugins2.0.0/jp-intellij-plugin-2.0.0" value="1455737826000" />
+        <entry key="$USER_HOME$/Gluon/Projects/Consultancy/360T/360t-live-pricing" value="2960679024000" />
+        <entry key="$USER_HOME$/Gluon/Projects/Consultancy/360T/360t-live-pricing-2" value="4447312254000" />
+        <entry key="$USER_HOME$/Gluon/Projects/Consultancy/Exiqon/247MfgMobile" value="2958400936000" />
+        <entry key="$USER_HOME$/Gluon/Projects/Extensiatech" value="1462470130000" />
+        <entry key="$USER_HOME$/Gluon/Projects/GluonDemoIdea" value="1463157405000" />
+        <entry key="$USER_HOME$/Gluon/Projects/GluonDemoIntelliJ" value="1463157944000" />
+        <entry key="$USER_HOME$/Gluon/Projects/Otn" value="7329652460000" />
+        <entry key="$USER_HOME$/Gluon/Temp/Tes88" value="1455697171000" />
+        <entry key="$USER_HOME$/Gluon/Temp/TestSQL" value="1447322405000" />
+        <entry key="$USER_HOME$/Gluon/exiqonpoc" value="1441178574000" />
+        <entry key="$USER_HOME$/Gluon/experiments/CharmListView" value="1440945675000" />
+        <entry key="$USER_HOME$/Gluon/experiments/ExiqonPrototype" value="1458900200000" />
+        <entry key="$USER_HOME$/Gluon/experiments/GoNative" value="1442785498000" />
+        <entry key="$USER_HOME$/Gluon/experiments/responsive" value="1447835254000" />
+        <entry key="$USER_HOME$/Gluon/gluon" value="51877925843000" />
+        <entry key="$USER_HOME$/Gluon/gluon/samples/Notes" value="1440939797000" />
+        <entry key="$USER_HOME$/Gluon/gluon/samples/WheresDuke" value="1442237502000" />
+        <entry key="$USER_HOME$/Gluon/rainfocus-javaone" value="7205963545000" />
+        <entry key="$USER_HOME$/Gluon/samples/Comments2.0" value="1448724305000" />
+        <entry key="$PROJECT_DIR$/../../../CodeVault" value="1459340645000" />
+        <entry key="$PROJECT_DIR$/../../../Conferences" value="1442929005000" />
+        <entry key="$PROJECT_DIR$/../../../FiftyStates" value="1458671854000" />
+        <entry key="$PROJECT_DIR$/../../../GluonBasicProject2" value="1444233644000" />
+        <entry key="$PROJECT_DIR$/../../../GluonCharmProject" value="1442929514000" />
+        <entry key="$PROJECT_DIR$/../../../GluonMobile-SingleViewProject111" value="1466165033000" />
+        <entry key="$PROJECT_DIR$/../../../GluonMobile2" value="1478205748000" />
+        <entry key="$PROJECT_DIR$/../../../GluonMobileTest" value="1464077517000" />
+        <entry key="$PROJECT_DIR$/../../../GluonSQLite" value="1459186069000" />
+        <entry key="$PROJECT_DIR$/../../../GluonSingleViewProject" value="1457958579000" />
+        <entry key="$PROJECT_DIR$/../../../JBCNConfTest" value="1466168046000" />
+        <entry key="$PROJECT_DIR$/../../../Test14" value="1455278221000" />
+        <entry key="$PROJECT_DIR$/../../../Test232" value="1455820135000" />
+        <entry key="$PROJECT_DIR$/../../../Test3333" value="1455741656000" />
+        <entry key="$PROJECT_DIR$/../../../Test4" value="1455373262000" />
+        <entry key="$PROJECT_DIR$/../../../TestJar2" value="1478196490000" />
+        <entry key="$PROJECT_DIR$/../../../TestRC21" value="1457638104000" />
+        <entry key="$PROJECT_DIR$/../../../TestRC22" value="1457638198000" />
+        <entry key="$PROJECT_DIR$/../../../TestSV" value="1457640888000" />
+        <entry key="$PROJECT_DIR$/../../../TestView" value="1458055041000" />
+        <entry key="$USER_HOME$/NetBeansProjects/GluonProjects" value="1482602607000" />
+        <entry key="$USER_HOME$/NetBeansProjects/GluonProjects/GluonMobile1" value="1479129863000" />
+        <entry key="$USER_HOME$/NetBeansProjects/GluonProjects/GluonTest345" value="1482602759000" />
+        <entry key="$USER_HOME$/NetBeansProjects/GluonProjects/NotesApp" value="1458728128000" />
+        <entry key="/Volumes/Transcend/Gluon/androidCode/tools" value="90808998165000" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Downloads/dl4j-examples-master-2/dl4j-examples" value="PREVIEW" />
+        <entry key="$USER_HOME$/Gluon/Gluon-OSS/Git-SceneBuilder" value="PREVIEW" />
+        <entry key="$USER_HOME$/Gluon/Gluon-OSS/SceneBuilder/Forks/jpereda-git-scenebuilder2" value="PREVIEW" />
+        <entry key="$USER_HOME$/Gluon/GluonCode/Experiments/experiments/ar/GluonReal" value="PREVIEW" />
+        <entry key="$USER_HOME$/Gluon/GluonCode/Gluon/gluon" value="PREVIEW" />
+        <entry key="$USER_HOME$/Gluon/OSS/FXyz-Master" value="PREVIEW" />
+        <entry key="$USER_HOME$/Gluon/OSS/controlsfx-enterprise" value="PREVIEW" />
+        <entry key="$USER_HOME$/Gluon/OSS/jp-FXyz" value="PREVIEW" />
+        <entry key="$USER_HOME$/Gluon/Projects/Consultancy/Mpmpos/MpmposApp" value="PREVIEW" />
+        <entry key="$USER_HOME$/Gluon/Projects/Consultancy/Signal/signal-demo" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hellofx" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hellofx" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hellofx" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="compiler" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="hellofx" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="exec" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="823" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hellofx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellofx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellofx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellofx" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellofx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellofx" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellofx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellofx" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellofx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellofx" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="openjfx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellofx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellofx" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellofx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellofx" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="fxml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellofx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541280394167" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/opt/node@6/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83c84b75-dbb7-4074-bb93-ae1be8929403" name="Default Changelist" comment="" />
+      <created>1541280101305</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541280101305</updated>
+      <workItem from="1541280105211" duration="247000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="247000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="823" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" weight="0.32909605" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32909605" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="PsiViewer" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.3297568" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/FXMLController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/Scene.fxml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/openjfx/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
