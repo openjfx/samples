@@ -1,4 +1,4 @@
-# samples for IntelliJ
+# samples for NetBeans
 
 JavaFX 11 samples to run from NetBeans with different options and build tools
 
