@@ -1,4 +1,4 @@
-package org.openjfx;
+package org.openjfx.hellofx;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
