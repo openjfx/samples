@@ -9,25 +9,25 @@ JavaFX 11 samples to run with different options and build tools
 
 ### Maven
 
-`hellofx` sample non-modular project to run with Maven
+`hellofx` [sample](Non-modular/Maven) non-modular project to run with Maven
 
 ### Gradle
 
-`hellofx` sample non-modular project to run with Gradle
+`hellofx` [sample](Non-modular/Gradle) non-modular project to run with Gradle
 
 ## Modular
 
 ### CLI
 
-`hellofx` sample modular project to run on command line, without build tools
+`hellofx` [sample](Modular/CLI) modular project to run on command line, without build tools
 
 ### Maven
 
-`hellofx` sample modular project to run with Maven
+`hellofx` [sample](Modular/Maven) modular project to run with Maven
 
 ### Gradle
 
-`hellofx` sample modular project to run with Gradle
+`hellofx` [sample](Modular/Gradle) modular project to run with Gradle
 
 ## IDEs
 
@@ -35,27 +35,27 @@ JavaFX 11 samples to run with different options and build tools
 
 #### Ant
 
-`hellofx` sample modular project to run from IntelliJ, with ant
+`hellofx` [sample](IDE/IntelliJ) modular project to run from IntelliJ, with ant
 
 #### Maven
 
-`hellofx` sample modular project to run from IntelliJ, with Maven
+`hellofx` [sample](IDE/IntelliJ) modular project to run from IntelliJ, with Maven
 
 #### Gradle
 
-`hellofx` sample modular project to run from IntelliJ, with Gradle
+`hellofx` [sample](IDE/IntelliJ) modular project to run from IntelliJ, with Gradle
 
 
 ### Eclipse
 
 #### Ant
 
-`hellofx` sample modular project to run from Eclipse, with ant
+`hellofx` [sample](IDE/Eclipse) modular project to run from Eclipse, with ant
 
 #### Maven
 
-`hellofx` sample modular project to run from Eclipse, with Maven
+`hellofx` [sample](IDE/Eclipse) modular project to run from Eclipse, with Maven
 
 #### Gradle
 
-`hellofx` sample modular project to run from Eclipse, with Gradle
+`hellofx` [sample](IDE/Eclipse) modular project to run from Eclipse, with Gradle
