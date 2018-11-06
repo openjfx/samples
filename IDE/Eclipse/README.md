@@ -55,10 +55,11 @@ to the `Run configuration... -> Maven Build -> hellofx -> JRE -> VM arguments`.
 
 For the first time only:
 
-- Make sure you have the Buildship Gradle Integration 2.0 plugin installed.
+- Make sure you have the Buildship Gradle Integration 2.0 plugin installed. Update to 2.2.3 version
+from this [URL](http://download.eclipse.org/buildship/updates/e48/snapshots/2.x/).
 
-- Open Eclipse and create a string substitution variable under `Preferences->Run/Debug->String Substitution`, named `JAVA_HOME_11` and
-pointing to the Java 11 home folder. 
+- Add `org.gradle.java.home` to a `gradle.properties` file, with the path to JDK 11. This file 
+can be part of the project or under the gradle user home `USER_HOME/.gradle`. 
 
 Clone the sample, open it with Eclipse and refresh the Gradle project. 
 
