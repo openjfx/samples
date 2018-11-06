@@ -60,6 +60,9 @@ IDEs
 
 `hellofx` [sample](IDE/IntelliJ): non-modular project to run from IntelliJ, with Gradle
 
+##### Modular - Gradle
+
+`hellofx` [sample](IDE/IntelliJ): modular project to run from IntelliJ, with Gradle
 
 ### NetBeans
 
@@ -75,6 +78,9 @@ IDEs
 
 `hellofx` [sample](IDE/NetBeans): non-modular project to run from NetBeans, with Gradle
 
+##### Modular - Gradle
+
+`hellofx` [sample](IDE/NetBeans): modular project to run from NetBeans, with Gradle
 
 ### Eclipse
 
@@ -89,3 +95,7 @@ IDEs
 #### Gradle
 
 `hellofx` [sample](IDE/Eclipse): non-modular project to run from Eclipse, with Gradle
+
+##### Modular - Gradle
+
+`hellofx` [sample](IDE/Eclipse): modular project to run from Eclipse, with Gradle
