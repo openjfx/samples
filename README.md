@@ -1,7 +1,24 @@
 # samples
+
 JavaFX 11 samples to run with different options and build tools
 
-## Non-modular
+HelloFX
+=======
+
+### Ant
+
+`hellofx` [sample](HelloFX/Ant) simple HelloFX class to run on command line, without build tools
+
+### Maven
+
+`hellofx` [sample](HelloFX/Maven) simple HelloFX class to run with Maven
+
+### Gradle
+
+`hellofx` [sample](HelloFX/Gradle) simple HelloFX class to run with Gradle
+
+Non-modular
+===========
 
 ### CLI
 
@@ -15,7 +32,8 @@ JavaFX 11 samples to run with different options and build tools
 
 `hellofx` [sample](Non-modular/Gradle) non-modular project to run with Gradle
 
-## Modular
+Modular
+=======
 
 ### CLI
 
@@ -25,7 +43,8 @@ JavaFX 11 samples to run with different options and build tools
 
 `hellofx` [sample](Modular/Gradle) modular project to run with Gradle
 
-## IDEs
+IDEs
+====
 
 ### IntelliJ
 

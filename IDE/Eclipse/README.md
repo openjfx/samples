@@ -4,7 +4,7 @@ JavaFX 11 samples to run from Eclipse with different options and build tools
 
 Version Eclipse 2018-09 (4.9) Build id: I20180906-0745.
 
-Download an appropriate JDK 11 for your operating system. Make sure `JAVA_HOME` 
+Download an appropriate [JDK 11](https://jdk.java.net/11/) for your operating system. Make sure `JAVA_HOME` 
 is properly set to the Java 11 installation directory. 
 
 Note: If you get this message when you add JDK 11:
