@@ -37,3 +37,26 @@ For the first time only:
 
 Clone the sample, open it with NetBeans and reload the project. Build and run
 from the Tasks context-menu.
+
+## Modular
+
+### Gradle
+
+For the first time only:
+
+- Install manually the Gradle plugin for NetBeans 2.0.1 from the 
+[GitHub repository](https://github.com/kelemen/netbeans-gradle-project/releases).
+
+- Download [JavaFX jmods](https://gluonhq.com/products/javafx/) for your operating 
+system and unzip to a desired location.
+
+- Add `org.gradle.java.home` to a `gradle.properties` file, with the path to JDK 11, and
+ `path.to.fx.mods` to a `gradle.properties` file, with the path to JDK jmods. This file 
+can be part of the project or under the gradle user home `USER_HOME/.gradle`. 
+
+Clone the sample, open it with NetBeans and reload the project. Build and run
+from the Tasks context-menu. Run the `jlink` task to create a custom runtime image:
+
+Run:
+
+    hellofx/bin/java -m hellofx/org.openjfx.MainApp

@@ -25,9 +25,10 @@ dependencies {
     compile "org.openjfx:javafx-base:11:$platform"
     compile "org.openjfx:javafx-graphics:11:$platform"
     compile "org.openjfx:javafx-controls:11:$platform"
+    compile "org.openjfx:javafx-fxml:11:$platform"
 }
 
-mainClassName = "$moduleName/hellofx.HelloFX"
+mainClassName = "$moduleName/org.openjfx.MainApp"
 
 def java_home = getProperty('org.gradle.java.home') != null ? getProperty('org.gradle.java.home') : System.getenv('JAVA_HOME')
 def fx_jmods = getProperty('path.to.fx.mods') != null ? getProperty('path.to.fx.mods') : System.getenv('PATH_TO_FX_MODS')
