@@ -10,8 +10,6 @@ is properly set to the Java 11 installation directory.
 Download [JavaFX SDK](https://gluonhq.com/products/javafx/) for your operating 
 system and unzip to a desired location.
 
-`hellofx` single class to run with Gradle
-
 ### Linux / Mac
 
 If you run on Linux or Mac, follow these steps:
@@ -33,9 +31,12 @@ If you run on Windows, follow these steps:
 
     cd HelloFX\Ant\hellofx
     set PATH_TO_FX="path\to\javafx-sdk-11\lib"
+
+Compile:
+
     javac --module-path %PATH_TO_FX% --add-modules=javafx.controls HelloFX.java
 
-To run the project:
+Run:
     
     java --module-path %PATH_TO_FX% --add-modules=javafx.controls HelloFX
 
@@ -47,7 +48,7 @@ If you run on Linux or Mac, follow these steps:
 
     cd HelloFX/Maven/hellofx
     
-To compilea and run the project:
+To compile and run the project:
     
     mvn compile exec:java
 
@@ -75,7 +76,7 @@ To run the project:
 
 If you run on Windows, follow these steps:
 
-    cd Non-modular\Gradle\hellofx
+    cd HelloFX\Gradle\hellofx
 
 To run the project:
     
