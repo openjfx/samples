@@ -50,42 +50,42 @@ IDEs
 
 #### Ant
 
-`hellofx` [sample](IDE/IntelliJ): modular project to run from IntelliJ, with ant
+`hellofx` [sample](IDE/IntelliJ): non-modular project to run from IntelliJ, with ant
 
 #### Maven
 
-`hellofx` [sample](IDE/IntelliJ): modular project to run from IntelliJ, with Maven
+`hellofx` [sample](IDE/IntelliJ): non-modular project to run from IntelliJ, with Maven
 
 #### Gradle
 
-`hellofx` [sample](IDE/IntelliJ): modular project to run from IntelliJ, with Gradle
+`hellofx` [sample](IDE/IntelliJ): non-modular project to run from IntelliJ, with Gradle
 
 
 ### NetBeans
 
 #### Ant
 
-`hellofx` [sample](IDE/NetBeans): modular project to run from NetBeans, with ant
+`hellofx` [sample](IDE/NetBeans): non-modular project to run from NetBeans, with ant
 
 #### Maven
 
-`hellofx` [sample](IDE/NetBeans): modular project to run from NetBeans, with Maven
+`hellofx` [sample](IDE/NetBeans): non-modular project to run from NetBeans, with Maven
 
 #### Gradle
 
-`hellofx` [sample](IDE/NetBeans): modular project to run from NetBeans, with Gradle
+`hellofx` [sample](IDE/NetBeans): non-modular project to run from NetBeans, with Gradle
 
 
 ### Eclipse
 
 #### Ant
 
-`hellofx` [sample](IDE/Eclipse): modular project to run from Eclipse, with ant
+`hellofx` [sample](IDE/Eclipse): non-modular project to run from Eclipse, with ant
 
 #### Maven
 
-`hellofx` [sample](IDE/Eclipse): modular project to run from Eclipse, with Maven
+`hellofx` [sample](IDE/Eclipse): non-modular project to run from Eclipse, with Maven
 
 #### Gradle
 
-`hellofx` [sample](IDE/Eclipse): modular project to run from Eclipse, with Gradle
+`hellofx` [sample](IDE/Eclipse): non-modular project to run from Eclipse, with Gradle
