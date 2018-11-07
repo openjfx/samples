@@ -59,7 +59,7 @@ Name it `JavaFXMODS11` and include the folder JavaFX jmods 11.
 Clone the sample, open it with NetBeans, and make sure the paths for Java 11 and 
 JavaFX 11 match those on your machine.
 
-Clean and build with regular button to create a custom JRE. Not
+Clean and build with regular button to create a custom JRE.
 Run with regular button.
 
 To run the custom JRE on Mac:
