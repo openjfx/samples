@@ -66,15 +66,49 @@ Run with Run configurations -> Gradle Project -> hellofx
 
 ## Modular
 
+### Ant
+
+- Download [JavaFX jmods](https://gluonhq.com/products/javafx/) for your operating 
+system and unzip to a desired location.
+
+Clone the sample, edit the file .settings/modHelloFX.launch` and change the value
+`org.eclipse.jdt.launching.MODULE_CLI_OPTIONS` to:
+
+On Linux, Mac:
+
+    value="--module-path path/to/javafx-sdk-11/lib:hellofx"
+
+On Windows:
+
+    value="--module-path path\to\javafx-sdk-11\lib;hellofx"
+
+
+Open the project with Eclipse.
+
+Run with `Run configurations -> Java Application -> modHelloFX`
+
+To create and run a custom JRE, from terminal:
+
+On Linux or Mac run:
+
+    cd IDE/Eclipse/Modular/Ant/HelloFX
+    export PATH_TO_FX_MODS=path/to/javafx-jmods-11
+    $JAVA_HOME/bin/jlink --module-path $PATH_TO_FX_MODS:hellofx --add-modules=hellofx --output jre
+    jre/bin/java -m hellofx/org.openjfx.MainApp
+
+On Windows run:
+
+    cd IDE\Eclipse\Modular\Ant\HelloFX
+    set PATH_TO_FX_MODS="path\to\javafx-jmods-11"
+    %JAVA_HOME%\bin\jlink --module-path "%PATH_TO_FX_MODS%;hellofx" --add-modules=hellofx --output jre
+    jre\bin\java -m hellofx/org.openjfx.MainApp
+
 ### Gradle
 
 For the first time only:
 
 - Make sure you have the Buildship Gradle Integration 2.0 plugin installed. Update to 2.2.3 version
 from this [URL](http://download.eclipse.org/buildship/updates/e48/snapshots/2.x/).
-
-- Download [JavaFX jmods](https://gluonhq.com/products/javafx/) for your operating 
-system and unzip to a desired location.
 
 - Add `org.gradle.java.home` to a `gradle.properties` file, with the path to JDK 11, and
  `path.to.fx.mods` to a `gradle.properties` file, with the path to JDK jmods. This file 
