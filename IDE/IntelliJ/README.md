@@ -27,10 +27,38 @@ from the Gradle window.
 
 ## Modular
 
-### Gradle
-
-- Download [JavaFX jmods](https://gluonhq.com/products/javafx/) for your operating 
+Download [JavaFX jmods](https://gluonhq.com/products/javafx/) for your operating 
 system and unzip to a desired location.
+
+### Ant
+
+Download [JavaFX SDK](https://gluonhq.com/products/javafx/) for your operating 
+system and unzip to a desired location.
+
+Clone the sample, open it with IntelliJ, and make sure the paths for Java 11 and 
+JavaFX 11 match those on your machine.
+
+Define a Path Variable in Preferences/Settings: name `PATH_SEPARATOR`, value `:` on Linux/Mac, `;` on Windows.
+
+Run the `runHelloFX` configuration.
+
+To create and run a custom JRE, from terminal:
+
+On Linux or Mac run:
+
+    cd IDE/IntelliJ/Modular/Ant/hellofx
+    export PATH_TO_FX_MODS=path/to/javafx-jmods-11
+    $JAVA_HOME/bin/jlink --module-path $PATH_TO_FX_MODS:mods/production --add-modules=hellofx --output jre
+    jre/bin/java -m hellofx/org.openjfx.MainApp
+
+On Windows run:
+
+    cd IDE\IntelliJ\Modular\Ant\hellofx
+    set PATH_TO_FX_MODS="path\to\javafx-jmods-11"
+    %JAVA_HOME%\bin\jlink --module-path "%PATH_TO_FX_MODS%;mods\production" --add-modules=hellofx --output jre
+    jre\bin\java -m hellofx/org.openjfx.MainApp
+
+### Gradle
 
 - Add `org.gradle.java.home` to a `gradle.properties` file, with the path to JDK 11, and
  `path.to.fx.mods` to a `gradle.properties` file, with the path to JDK jmods. This file 
@@ -39,6 +67,14 @@ can be part of the project or under the gradle user home `USER_HOME/.gradle`.
 Clone the sample, open it with IntelliJ and import the Gradle changes. Build and run
 from the Gradle window. Run the `jlink` task to create a custom runtime image:
 
-Run:
+#### Linux / Mac
+
+On Linux or Mac run:
 
     hellofx/bin/java -m hellofx/org.openjfx.MainApp
+
+#### Windows
+
+On Windows, run:
+
+    hellofx\bin\java -m hellofx/org.openjfx.MainApp
