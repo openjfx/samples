@@ -71,7 +71,7 @@ Run with Run configurations -> Gradle Project -> hellofx
 - Download [JavaFX jmods](https://gluonhq.com/products/javafx/) for your operating 
 system and unzip to a desired location.
 
-Clone the sample, edit the file `.settings/modHelloFX.launch` and change the value
+Clone the sample, edit the file `.settings/modHelloFX.launch` and change the value for
 `org.eclipse.jdt.launching.MODULE_CLI_OPTIONS` to:
 
 On Linux, Mac:
