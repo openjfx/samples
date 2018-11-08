@@ -58,7 +58,7 @@ Contains samples of modular and non-modular projects that can be run from an IDE
 
 #### Java
 
-`hellofx` [sample](IDE/IntelliJ): non-modular project to run from IntelliJ, with ant
+`hellofx` [sample](IDE/IntelliJ): non-modular project to run from IntelliJ
 
 #### Maven
 
@@ -70,7 +70,7 @@ Contains samples of modular and non-modular projects that can be run from an IDE
 
 ##### Modular - Java
 
-`hellofx` [sample](IDE/IntelliJ): modular project to run from IntelliJ, with ant
+`hellofx` [sample](IDE/IntelliJ): modular project to run from IntelliJ
 
 ##### Modular - Maven
 
@@ -84,7 +84,7 @@ Contains samples of modular and non-modular projects that can be run from an IDE
 
 #### Java
 
-`hellofx` [sample](IDE/NetBeans): non-modular project to run from NetBeans, with ant
+`hellofx` [sample](IDE/NetBeans): non-modular project to run from NetBeans
 
 #### Maven
 
@@ -96,7 +96,7 @@ Contains samples of modular and non-modular projects that can be run from an IDE
 
 ##### Modular - Java
 
-`hellofx` [sample](IDE/NetBeans): modular project to run from NetBeans, with ant
+`hellofx` [sample](IDE/NetBeans): modular project to run from NetBeans
 
 ##### Modular - Maven
 
@@ -110,7 +110,7 @@ Contains samples of modular and non-modular projects that can be run from an IDE
 
 #### Java
 
-`hellofx` [sample](IDE/Eclipse): non-modular project to run from Eclipse, with ant
+`hellofx` [sample](IDE/Eclipse): non-modular project to run from Eclipse
 
 #### Maven
 
@@ -122,7 +122,7 @@ Contains samples of modular and non-modular projects that can be run from an IDE
 
 ##### Modular - Java
 
-`hellofx` [sample](IDE/Eclipse): modular project to run from Eclipse, with ant
+`hellofx` [sample](IDE/Eclipse): modular project to run from Eclipse
 
 ##### Modular - Eclipse
 
