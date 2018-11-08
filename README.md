@@ -116,6 +116,10 @@ IDEs
 
 `hellofx` [sample](IDE/Eclipse): modular project to run from Eclipse, with ant
 
+##### Modular - Eclipse
+
+`hellofx` [sample](IDE/Eclipse): modular project to run from Eclipse, with Maven
+
 ##### Modular - Gradle
 
 `hellofx` [sample](IDE/Eclipse): modular project to run from Eclipse, with Gradle

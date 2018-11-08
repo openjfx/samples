@@ -45,7 +45,7 @@ For the first time only:
 
 Clone the sample, open it with Eclipse and import the Maven changes. 
 
-Run with Run configurations -> Maven -> hellofx
+Run with `Run configurations -> Maven Build -> hellofx`.
 
 Note: on Windows, under Eclipse running Oracle JDK 1.8, you need to add `-Djava.library.path=C:\` 
 to the `Run configuration... -> Maven Build -> hellofx -> JRE -> VM arguments`.
@@ -101,6 +101,37 @@ On Windows run:
     cd IDE\Eclipse\Modular\Ant\HelloFX
     set PATH_TO_FX_MODS="path\to\javafx-jmods-11"
     %JAVA_HOME%\bin\jlink --module-path "%PATH_TO_FX_MODS%;hellofx" --add-modules=hellofx --output jre
+    jre\bin\java -m hellofx/org.openjfx.MainApp
+
+### Maven
+
+Clone the sample, open it with Eclipse, and make sure the paths for Java 11 and 
+JavaFX 11 match those on your machine.
+
+Run with `Run configurations -> Maven Build -> hellofx`.
+
+As well, this will work from the terminal on Linux or Mac:
+
+    java --module-path $PATH_TO_FX:target/hellofx-1.0-SNAPSHOT.jar -m hellofx/org.openjfx.MainApp
+
+or on Windows:
+    
+    java --module-path %PATH_TO_FX%:target\hellofx-1.0-SNAPSHOT.jar -m hellofx/org.openjfx.MainApp
+
+To create and run a custom JRE, from terminal:
+
+On Linux or Mac run:
+
+    cd IDE/NetBeans/Modular/Ant/hellofx
+    export PATH_TO_FX_MODS=path/to/javafx-jmods-11
+    $JAVA_HOME/bin/jlink --module-path $PATH_TO_FX_MODS:target/hellofx-1.0-SNAPSHOT.jar --add-modules=hellofx --output jre
+    jre/bin/java -m hellofx/org.openjfx.MainApp
+
+On Windows run:
+
+    cd IDE\NetBeans\Modular\Ant\hellofx
+    set PATH_TO_FX_MODS="path\to\javafx-jmods-11"
+    %JAVA_HOME%\bin\jlink --module-path "%PATH_TO_FX_MODS%;target\hellofx-1.0-SNAPSHOT.jar" --add-modules=hellofx --output jre
     jre\bin\java -m hellofx/org.openjfx.MainApp
 
 ### Gradle
