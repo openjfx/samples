@@ -6,8 +6,9 @@ The related documentation for each sample can be found [here](https://openjfx.io
 
 For more information go to https://openjfx.io.
 
-HelloFX
-=======
+## HelloFX
+
+Contains samples of a simple HelloFX class that can be run from command line, with or without build tools.
 
 ### Ant
 
@@ -21,34 +22,37 @@ HelloFX
 
 `hellofx` [sample](HelloFX/Gradle): simple HelloFX class to run with Gradle
 
-Non-modular
-===========
+## CommandLine
 
-### CLI
+Contains samples of modular and non-modular projects that can be run from command line, with or without build tools.
+
+### Non-modular
+
+#### CLI
 
 `hellofx` [sample](Non-modular/CLI): non-modular project to run on command line, without build tools
 
-### Maven
+#### Maven
 
 `hellofx` [sample](Non-modular/Maven): non-modular project to run with Maven
 
-### Gradle
+#### Gradle
 
 `hellofx` [sample](Non-modular/Gradle): non-modular project to run with Gradle
 
-Modular
-=======
+### Modular
 
-### CLI
+#### CLI
 
 `hellofx` [sample](Modular/CLI): modular project to run on command line, without build tools
 
-### Gradle
+#### Gradle
 
 `hellofx` [sample](Modular/Gradle): modular project to run with Gradle
 
-IDEs
-====
+## IDEs
+
+Contains samples of modular and non-modular projects that can be run from an IDE, with or without build tools.
 
 ### IntelliJ
 
