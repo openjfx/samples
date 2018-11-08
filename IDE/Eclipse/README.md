@@ -13,7 +13,9 @@ Note: If you get this message when you add JDK 11:
 
 then install this patch from MarketPlace: `Java 11 support for Eclipse 2018-09 (4.9)`.
 
-## Java
+## Non-Modular
+
+### Java
 
 For the first time only:
 
@@ -37,7 +39,7 @@ Note: Edit Run configurations... -> Arguments and make sure the option:
 
 is not selected.
 
-## Maven
+### Maven
 
 For the first time only:
 
@@ -50,7 +52,7 @@ Run with `Run configurations -> Maven Build -> hellofx`.
 Note: on Windows, under Eclipse running Oracle JDK 1.8, you need to add `-Djava.library.path=C:\` 
 to the `Run configuration... -> Maven Build -> hellofx -> JRE -> VM arguments`.
 
-## Gradle
+### Gradle
 
 For the first time only:
 

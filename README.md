@@ -56,78 +56,90 @@ Contains samples of modular and non-modular projects that can be run from an IDE
 
 ### IntelliJ
 
-#### Java
+#### Non-Modular
+
+##### Java
 
 `hellofx` [sample](IDE/IntelliJ): non-modular project to run from IntelliJ
 
-#### Maven
+##### Maven
 
 `hellofx` [sample](IDE/IntelliJ): non-modular project to run from IntelliJ, with Maven
 
-#### Gradle
+##### Gradle
 
 `hellofx` [sample](IDE/IntelliJ): non-modular project to run from IntelliJ, with Gradle
 
-##### Modular - Java
+#### Modular
+
+##### Java
 
 `hellofx` [sample](IDE/IntelliJ): modular project to run from IntelliJ
 
-##### Modular - Maven
+##### Maven
 
 `hellofx` [sample](IDE/IntelliJ): modular project to run from IntelliJ, with Maven
 
-##### Modular - Gradle
+##### Gradle
 
 `hellofx` [sample](IDE/IntelliJ): modular project to run from IntelliJ, with Gradle
 
 ### NetBeans
 
-#### Java
+##### Non-Modular 
+
+##### Java
 
 `hellofx` [sample](IDE/NetBeans): non-modular project to run from NetBeans
 
-#### Maven
+##### Maven
 
 `hellofx` [sample](IDE/NetBeans): non-modular project to run from NetBeans, with Maven
 
-#### Gradle
+##### Gradle
 
 `hellofx` [sample](IDE/NetBeans): non-modular project to run from NetBeans, with Gradle
 
-##### Modular - Java
+#### Modular 
+
+##### Java
 
 `hellofx` [sample](IDE/NetBeans): modular project to run from NetBeans
 
-##### Modular - Maven
+##### Maven
 
 `hellofx` [sample](IDE/NetBeans): modular project to run from NetBeans, with Maven
 
-##### Modular - Gradle
+##### Gradle
 
 `hellofx` [sample](IDE/NetBeans): modular project to run from NetBeans, with Gradle
 
 ### Eclipse
 
-#### Java
+#### Non-Modular
+
+##### Java
 
 `hellofx` [sample](IDE/Eclipse): non-modular project to run from Eclipse
 
-#### Maven
+##### Maven
 
 `hellofx` [sample](IDE/Eclipse): non-modular project to run from Eclipse, with Maven
 
-#### Gradle
+##### Gradle
 
 `hellofx` [sample](IDE/Eclipse): non-modular project to run from Eclipse, with Gradle
 
-##### Modular - Java
+#### Modular 
+
+##### Java
 
 `hellofx` [sample](IDE/Eclipse): modular project to run from Eclipse
 
-##### Modular - Eclipse
+##### Eclipse
 
 `hellofx` [sample](IDE/Eclipse): modular project to run from Eclipse, with Maven
 
-##### Modular - Gradle
+##### Gradle
 
 `hellofx` [sample](IDE/Eclipse): modular project to run from Eclipse, with Gradle

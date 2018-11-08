@@ -10,7 +10,9 @@ is properly set to the Java 11 installation directory.
 The samples assume NetBeans 10 runs on JDK 11 (this can be set editing the `etc/netbeans.conf` file
 and setting `netbeans_jdkhome="/path/to/jdk11"`).
 
-## Java
+## Non-Modular
+
+### Java
 
 For the first time only:
 
@@ -23,12 +25,12 @@ Name it `JavaFX11` and include the jars under the lib folder from JavaFX 11 (but
 Clone the sample, open it with NetBeans, and make sure the paths for Java 11 and 
 JavaFX 11 match those on your machine.
 
-## Maven
+### Maven
 
 Clone the sample, open it with NetBeans and reload the POM. Clean, build and run
 from the NetBeans usual buttons.
 
-## Gradle
+### Gradle
 
 For the first time only:
 
