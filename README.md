@@ -26,7 +26,7 @@ Contains samples of a simple HelloFX class that can be run from command line, wi
 
 Contains samples of modular and non-modular projects that can be run from command line, with or without build tools.
 
-### Non-Modular
+### Non-Modular
 
 #### CLI
 
