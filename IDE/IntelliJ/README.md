@@ -58,6 +58,39 @@ On Windows run:
     %JAVA_HOME%\bin\jlink --module-path "%PATH_TO_FX_MODS%;mods\production" --add-modules=hellofx --output jre
     jre\bin\java -m hellofx/org.openjfx.MainApp
 
+### Maven
+
+Clone the sample, open it with IntelliJ, and make sure the paths for Java 11 and 
+JavaFX 11 match those on your machine.
+
+Run the `hellofx` configuration, or from command line:
+
+    mvn clean compile package exec:java
+
+As well, this will work from the terminal on Linux or Mac:
+
+    java --module-path $PATH_TO_FX:target/hellofx-1.0-SNAPSHOT.jar -m hellofx/org.openjfx.MainApp
+
+or on Windows:
+    
+    java --module-path %PATH_TO_FX%:target\hellofx-1.0-SNAPSHOT.jar -m hellofx/org.openjfx.MainApp
+
+To create and run a custom JRE, from terminal:
+
+On Linux or Mac run:
+
+    cd IDE/IntelliJ/Modular/Ant/hellofx
+    export PATH_TO_FX_MODS=path/to/javafx-jmods-11
+    $JAVA_HOME/bin/jlink --module-path $PATH_TO_FX_MODS:target/hellofx-1.0-SNAPSHOT.jar --add-modules=hellofx --output jre
+    jre/bin/java -m hellofx/org.openjfx.MainApp
+
+On Windows run:
+
+    cd IDE\IntelliJ\Modular\Ant\hellofx
+    set PATH_TO_FX_MODS="path\to\javafx-jmods-11"
+    %JAVA_HOME%\bin\jlink --module-path "%PATH_TO_FX_MODS%;target\hellofx-1.0-SNAPSHOT.jar" --add-modules=hellofx --output jre
+    jre\bin\java -m hellofx/org.openjfx.MainApp
+
 ### Gradle
 
 - Add `org.gradle.java.home` to a `gradle.properties` file, with the path to JDK 11, and
