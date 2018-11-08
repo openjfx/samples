@@ -10,7 +10,7 @@ For more information go to https://openjfx.io.
 
 Contains samples of a simple HelloFX class that can be run from command line, with or without build tools.
 
-### Ant
+### CLI
 
 `hellofx` [sample](HelloFX/Ant): simple HelloFX class to run on command line, without build tools
 
