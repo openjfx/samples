@@ -15,6 +15,8 @@ system and unzip to a desired location.
 Clone the sample, open it with IntelliJ, and make sure the paths for Java 11 and 
 JavaFX 11 match those on your machine.
 
+Run with `Run -> Edit configurations -> Main`.
+
 ### Maven
 
 Clone the sample, open it with IntelliJ and import the Maven changes. Compile or run
