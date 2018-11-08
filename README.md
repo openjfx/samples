@@ -64,29 +64,29 @@ Contains samples of modular and non-modular projects that can be run from an IDE
 
 ##### Java
 
-`hellofx` [sample](IDE/IntelliJ/Non-Modular): non-modular project to run from IntelliJ
+`hellofx` [sample](IDE/IntelliJ/Non-Modular/Java): non-modular project to run from IntelliJ
 
 ##### Maven
 
-`hellofx` [sample](IDE/IntelliJ/Non-Modular): non-modular project to run from IntelliJ, with Maven
+`hellofx` [sample](IDE/IntelliJ/Non-Modular/Maven): non-modular project to run from IntelliJ, with Maven
 
 ##### Gradle
 
-`hellofx` [sample](IDE/IntelliJ/Non-Modular): non-modular project to run from IntelliJ, with Gradle
+`hellofx` [sample](IDE/IntelliJ/Non-Modular/Gradle): non-modular project to run from IntelliJ, with Gradle
 
 #### Modular
 
 ##### Java
 
-`hellofx` [sample](IDE/IntelliJ/Modular): modular project to run from IntelliJ
+`hellofx` [sample](IDE/IntelliJ/Modular/Java): modular project to run from IntelliJ
 
 ##### Maven
 
-`hellofx` [sample](IDE/IntelliJ/Modular): modular project to run from IntelliJ, with Maven
+`hellofx` [sample](IDE/IntelliJ/Modular/Maven): modular project to run from IntelliJ, with Maven
 
 ##### Gradle
 
-`hellofx` [sample](IDE/IntelliJ/Modular): modular project to run from IntelliJ, with Gradle
+`hellofx` [sample](IDE/IntelliJ/Modular/Gradle): modular project to run from IntelliJ, with Gradle
 
 ### NetBeans
 
@@ -94,29 +94,29 @@ Contains samples of modular and non-modular projects that can be run from an IDE
 
 ##### Java
 
-`hellofx` [sample](IDE/NetBeans/Non-Modular): non-modular project to run from NetBeans
+`hellofx` [sample](IDE/NetBeans/Non-Modular/Java): non-modular project to run from NetBeans
 
 ##### Maven
 
-`hellofx` [sample](IDE/NetBeans/Non-Modular): non-modular project to run from NetBeans, with Maven
+`hellofx` [sample](IDE/NetBeans/Non-Modular/Maven): non-modular project to run from NetBeans, with Maven
 
 ##### Gradle
 
-`hellofx` [sample](IDE/NetBeans/Non-Modular): non-modular project to run from NetBeans, with Gradle
+`hellofx` [sample](IDE/NetBeans/Non-Modular/Gradle): non-modular project to run from NetBeans, with Gradle
 
 #### Modular 
 
 ##### Java
 
-`hellofx` [sample](IDE/NetBeans/Modular): modular project to run from NetBeans
+`hellofx` [sample](IDE/NetBeans/Modular/Java): modular project to run from NetBeans
 
 ##### Maven
 
-`hellofx` [sample](IDE/NetBeans/Modular): modular project to run from NetBeans, with Maven
+`hellofx` [sample](IDE/NetBeans/Modular/Maven): modular project to run from NetBeans, with Maven
 
 ##### Gradle
 
-`hellofx` [sample](IDE/NetBeans/Modular): modular project to run from NetBeans, with Gradle
+`hellofx` [sample](IDE/NetBeans/Modular/Gradle): modular project to run from NetBeans, with Gradle
 
 ### Eclipse
 
@@ -124,26 +124,26 @@ Contains samples of modular and non-modular projects that can be run from an IDE
 
 ##### Java
 
-`hellofx` [sample](IDE/Eclipse/Non-Modular): non-modular project to run from Eclipse
+`hellofx` [sample](IDE/Eclipse/Non-Modular/Java): non-modular project to run from Eclipse
 
 ##### Maven
 
-`hellofx` [sample](IDE/Eclipse/Non-Modular): non-modular project to run from Eclipse, with Maven
+`hellofx` [sample](IDE/Eclipse/Non-Modular/Maven): non-modular project to run from Eclipse, with Maven
 
 ##### Gradle
 
-`hellofx` [sample](IDE/Eclipse/Non-Modular): non-modular project to run from Eclipse, with Gradle
+`hellofx` [sample](IDE/Eclipse/Non-Modular/Gradle): non-modular project to run from Eclipse, with Gradle
 
 #### Modular 
 
 ##### Java
 
-`hellofx` [sample](IDE/Eclipse/Modular): modular project to run from Eclipse
+`hellofx` [sample](IDE/Eclipse/Modular/Java): modular project to run from Eclipse
 
 ##### Eclipse
 
-`hellofx` [sample](IDE/Eclipse/Modular): modular project to run from Eclipse, with Maven
+`hellofx` [sample](IDE/Eclipse/Modular/Maven): modular project to run from Eclipse, with Maven
 
 ##### Gradle
 
-`hellofx` [sample](IDE/Eclipse/Modular): modular project to run from Eclipse, with Gradle
+`hellofx` [sample](IDE/Eclipse/Modular/Gradle): modular project to run from Eclipse, with Gradle

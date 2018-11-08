@@ -13,33 +13,6 @@ and setting `netbeans_jdkhome="/path/to/jdk11"`).
 Download [JavaFX jmods](https://gluonhq.com/products/javafx/) for your operating 
 system and unzip to a desired location.
 
-### Java
-
-For the first time only:
-
-- Download [JavaFX SDK](https://gluonhq.com/products/javafx/) for your operating 
-system and unzip to a desired location.
-
-- Open NetBeans and create a global Library under `NetBeans -> Tools -> Libraries -> New Library`.
-Name it `JavaFX11` and include the jars under the lib folder from JavaFX 11 (but not the `src.zip` file).
-
-- Create a global Library under `NetBeans -> Tools -> Libraries -> New Library`.
-Name it `JavaFXMODS11` and include the folder JavaFX jmods 11.
-
-Clone the sample, open it with NetBeans, and make sure the paths for Java 11 and 
-JavaFX 11 match those on your machine.
-
-Clean and build with regular button to create a custom JRE.
-Run with regular button.
-
-To run the custom JRE on Mac:
-
-    dist/jlink/HelloFX/bin/java -m hellofx/org.openjfx.MainApp
-
-To run the custom JRE on Windows:
-
-    dist\jlink\HelloFX\bin\java -m hellofx/org.openjfx.MainApp
-
 ### Maven
 
 Clone the sample, open it with NetBeans, and make sure the paths for Java 11 and 
@@ -72,21 +45,3 @@ On Windows run:
     set PATH_TO_FX_MODS="path\to\javafx-jmods-11"
     %JAVA_HOME%\bin\jlink --module-path "%PATH_TO_FX_MODS%;target\hellofx-1.0-SNAPSHOT.jar" --add-modules=hellofx --output jre
     jre\bin\java -m hellofx/org.openjfx.MainApp
-
-### Gradle
-
-For the first time only:
-
-- Install manually the Gradle plugin for NetBeans 2.0.1 from the 
-[GitHub repository](https://github.com/kelemen/netbeans-gradle-project/releases).
-
-- Add `org.gradle.java.home` to a `gradle.properties` file, with the path to JDK 11, and
- `path.to.fx.mods` to a `gradle.properties` file, with the path to JDK jmods. This file 
-can be part of the project or under the gradle user home `USER_HOME/.gradle`. 
-
-Clone the sample, open it with NetBeans and reload the project. Build and run
-from the Tasks context-menu. Run the `jlink` task to create a custom runtime image:
-
-Run:
-
-    hellofx/bin/java -m hellofx/org.openjfx.MainApp
