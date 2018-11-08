@@ -30,8 +30,8 @@ dependencies {
 
 mainClassName = "$moduleName/org.openjfx.MainApp"
 
-def java_home = getProperty('org.gradle.java.home') != null ? getProperty('org.gradle.java.home') : System.getenv('JAVA_HOME')
-def fx_jmods = getProperty('path.to.fx.mods') != null ? getProperty('path.to.fx.mods') : System.getenv('PATH_TO_FX_MODS')
+def java_home = hasProperty('org.gradle.java.home') != null ? getProperty('org.gradle.java.home') : System.getenv('JAVA_HOME')
+def fx_jmods = hasProperty('path.to.fx.mods') != null ? getProperty('path.to.fx.mods') : System.getenv('PATH_TO_FX_MODS')
 
 task jlink(type: Exec) {
     dependsOn 'clean'
