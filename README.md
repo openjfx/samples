@@ -1,6 +1,10 @@
 # samples
 
-JavaFX 11 samples to run with different options and build tools
+This repository contains a collection of JavaFX 11 samples that can be run with different options and build tools.
+
+The related documentation for each sample can be found [here](https://openjfx.io/openjfx-docs/).
+
+For more information go to https://openjfx.io.
 
 HelloFX
 =======
