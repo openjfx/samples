@@ -56,7 +56,7 @@ Contains samples of modular and non-modular projects that can be run from an IDE
 
 ### IntelliJ
 
-#### Ant
+#### Java
 
 `hellofx` [sample](IDE/IntelliJ): non-modular project to run from IntelliJ, with ant
 
@@ -68,7 +68,7 @@ Contains samples of modular and non-modular projects that can be run from an IDE
 
 `hellofx` [sample](IDE/IntelliJ): non-modular project to run from IntelliJ, with Gradle
 
-##### Modular - Ant
+##### Modular - Java
 
 `hellofx` [sample](IDE/IntelliJ): modular project to run from IntelliJ, with ant
 
@@ -82,7 +82,7 @@ Contains samples of modular and non-modular projects that can be run from an IDE
 
 ### NetBeans
 
-#### Ant
+#### Java
 
 `hellofx` [sample](IDE/NetBeans): non-modular project to run from NetBeans, with ant
 
@@ -94,7 +94,7 @@ Contains samples of modular and non-modular projects that can be run from an IDE
 
 `hellofx` [sample](IDE/NetBeans): non-modular project to run from NetBeans, with Gradle
 
-##### Modular - Ant
+##### Modular - Java
 
 `hellofx` [sample](IDE/NetBeans): modular project to run from NetBeans, with ant
 
@@ -108,7 +108,7 @@ Contains samples of modular and non-modular projects that can be run from an IDE
 
 ### Eclipse
 
-#### Ant
+#### Java
 
 `hellofx` [sample](IDE/Eclipse): non-modular project to run from Eclipse, with ant
 
@@ -120,7 +120,7 @@ Contains samples of modular and non-modular projects that can be run from an IDE
 
 `hellofx` [sample](IDE/Eclipse): non-modular project to run from Eclipse, with Gradle
 
-##### Modular - Ant
+##### Modular - Java
 
 `hellofx` [sample](IDE/Eclipse): modular project to run from Eclipse, with ant
 
