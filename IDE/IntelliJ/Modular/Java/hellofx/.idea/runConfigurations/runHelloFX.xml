@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="runHelloFX" type="Application" factoryName="Application">
+    <option name="ALTERNATIVE_JRE_PATH" value="11" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <option name="MAIN_CLASS_NAME" value="org.openjfx.MainApp" />
+    <module name="hellofx" />
+    <option name="VM_PARAMETERS" value="--module-path $USER_HOME$/Downloads/javafx-sdk-11/lib$PATH_SEPARATOR$mods/production" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

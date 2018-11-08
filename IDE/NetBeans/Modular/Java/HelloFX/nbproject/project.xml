@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.java.j2semodule</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/j2se-modular-project/1">
+            <name>HelloFX</name>
+            <source-roots>
+                <root id="src.dir" pathref="src.dir.path"/>
+            </source-roots>
+            <test-roots>
+                <root id="test.src.dir" pathref="test.src.dir.path"/>
+            </test-roots>
+        </data>
+    </configuration>
+</project>

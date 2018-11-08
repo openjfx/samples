@@ -1,0 +1,50 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath 'com.google.gradle:osdetector-gradle-plugin:1.6.0'
+        classpath 'org.javamodularity:moduleplugin:1.1.1'
+    }
+}
+
+apply plugin: 'application'
+apply plugin: 'com.google.osdetector'
+apply plugin: 'org.javamodularity.moduleplugin'
+
+ext.platform = osdetector.os == 'osx' ? 'mac' : osdetector.os == 'windows' ? 'win' : osdetector.os
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.openjfx:javafx-base:11:$platform"
+    compile "org.openjfx:javafx-graphics:11:$platform"
+    compile "org.openjfx:javafx-controls:11:$platform"
+}
+
+mainClassName = "$moduleName/hellofx.HelloFX"
+
+def java_home = hasProperty('org.gradle.java.home') ? getProperty('org.gradle.java.home') : System.getenv('JAVA_HOME')
+def fx_jmods = hasProperty('path.to.fx.mods') ? getProperty('path.to.fx.mods') : System.getenv('PATH_TO_FX_MODS')
+
+task jlink(type: Exec) {
+    dependsOn 'clean'
+    dependsOn 'jar'
+
+    workingDir 'build'
+
+    if (java_home == null) {
+        throw new RuntimeException("java_home is not defined.")
+    }
+    if (fx_jmods == null) {
+        throw new RuntimeException("fx_jmods is not defined.")
+    }
+    commandLine "${java_home}/bin/jlink", '--module-path', "libs${File.pathSeparatorChar}${fx_jmods}",
+            '--add-modules', "${moduleName}", '--output', "${moduleName}", '--strip-debug',
+            '--compress', '2', '--no-header-files', '--no-man-pages'
+}
