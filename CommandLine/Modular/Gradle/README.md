@@ -13,7 +13,7 @@ is properly set to the Java 11 installation directory.
 
 If you run on Linux or Mac, follow these steps:
 
-    cd Modular/Gradle/hellofx
+    cd CommandLine/Modular/Gradle/hellofx
     
 To run the project:
     
@@ -33,7 +33,7 @@ system and unzip to a desired location.
 
 If you run on Windows, follow these steps:
 
-    cd Modular\Gradle\hellofx
+    cd CommandLine\Modular\Gradle\hellofx
 
 To run the project:
     

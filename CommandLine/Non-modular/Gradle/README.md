@@ -13,7 +13,7 @@ is properly set to the Java 11 installation directory.
 
 If you run on Linux or Mac, follow these steps:
 
-    cd Non-modular/Gradle/hellofx
+    cd CommandLine/Non-modular/Gradle/hellofx
     
 To run the project:
     
@@ -29,7 +29,7 @@ To create a fat jar:
 
 If you run on Windows, follow these steps:
 
-    cd Non-modular\Gradle\hellofx
+    cd CommandLine\Non-modular\Gradle\hellofx
 
 To run the project:
     

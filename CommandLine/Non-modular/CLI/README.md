@@ -16,7 +16,7 @@ system and unzip to a desired location.
 
 If you run on Linux or Mac, follow these steps:
 
-    cd Non-modular/CLI/hellofx
+    cd CommandLine/Non-modular/CLI/hellofx
     export PATH_TO_FX=path/to/javafx-sdk-11/lib
     javac --module-path $PATH_TO_FX --add-modules=javafx.controls -d out $(find src -name "*.java")
     
@@ -44,7 +44,7 @@ To create a fat jar:
 
 If you run on Windows, follow these steps:
 
-    cd Non-modular\CLI\hellofx
+    cd CommandLine\Non-modular\CLI\hellofx
     set PATH_TO_FX="path\to\javafx-sdk-11\lib"
     dir /s /b src\*.java > sources.txt & javac --module-path %PATH_TO_FX% --add-modules=javafx.controls -d out @sources.txt & del sources.txt
 

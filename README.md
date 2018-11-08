@@ -30,25 +30,29 @@ Contains samples of modular and non-modular projects that can be run from comman
 
 #### CLI
 
-`hellofx` [sample](Non-modular/CLI): non-modular project to run on command line, without build tools
+`hellofx` [sample](CommandLine/Non-modular/CLI): non-modular project to run on command line, without build tools
 
 #### Maven
 
-`hellofx` [sample](Non-modular/Maven): non-modular project to run with Maven
+`hellofx` [sample](CommandLine/Non-modular/Maven): non-modular project to run with Maven
 
 #### Gradle
 
-`hellofx` [sample](Non-modular/Gradle): non-modular project to run with Gradle
+`hellofx` [sample](CommandLine/Non-modular/Gradle): non-modular project to run with Gradle
 
 ### Modular
 
 #### CLI
 
-`hellofx` [sample](Modular/CLI): modular project to run on command line, without build tools
+`hellofx` [sample](CommandLine/Modular/CLI): modular project to run on command line, without build tools
+
+#### Maven
+
+`hellofx` [sample](CommandLine/Modular/Maven): modular project to run with Maven
 
 #### Gradle
 
-`hellofx` [sample](Modular/Gradle): modular project to run with Gradle
+`hellofx` [sample](CommandLine/Modular/Gradle): modular project to run with Gradle
 
 ## IDEs
 

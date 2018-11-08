@@ -19,7 +19,7 @@ system and unzip to a desired location.
 
 If you run on Linux or Mac, follow these steps:
 
-    cd Modular/CLI/hellofx
+    cd CommandLine/Modular/CLI/hellofx
     export PATH_TO_FX=path/to/javafx-sdk-11/lib
     export PATH_TO_FX_MODS=path/to/javafx-jmods-11
     javac --module-path $PATH_TO_FX -d mods/hellofx $(find src -name "*.java")
@@ -37,7 +37,7 @@ To create and run a custom JRE:
 
 If you run on Windows, follow these steps:
 
-    cd Modular\CLI\hellofx
+    cd CommandLine\Modular\CLI\hellofx
     set PATH_TO_FX="path\to\javafx-sdk-11\lib"
     set PATH_TO_FX_MODS="path\to\javafx-jmods-11"
     dir /s /b src\*.java > sources.txt & javac --module-path %PATH_TO_FX% -d mods/hellofx @sources.txt & del sources.txt
