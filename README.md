@@ -12,7 +12,7 @@ Contains samples of a simple HelloFX class that can be run from command line, wi
 
 ### CLI
 
-`hellofx` [sample](HelloFX/Ant): simple HelloFX class to run on command line, without build tools
+`hellofx` [sample](HelloFX/CLI): simple HelloFX class to run on command line, without build tools
 
 ### Maven
 

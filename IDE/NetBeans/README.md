@@ -91,14 +91,14 @@ To create and run a custom JRE, from terminal:
 
 On Linux or Mac run:
 
-    cd IDE/NetBeans/Modular/Ant/hellofx
+    cd IDE/NetBeans/Modular/Maven/hellofx
     export PATH_TO_FX_MODS=path/to/javafx-jmods-11
     $JAVA_HOME/bin/jlink --module-path $PATH_TO_FX_MODS:target/hellofx-1.0-SNAPSHOT.jar --add-modules=hellofx --output jre
     jre/bin/java -m hellofx/org.openjfx.MainApp
 
 On Windows run:
 
-    cd IDE\NetBeans\Modular\Ant\hellofx
+    cd IDE\NetBeans\Modular\Maven\hellofx
     set PATH_TO_FX_MODS="path\to\javafx-jmods-11"
     %JAVA_HOME%\bin\jlink --module-path "%PATH_TO_FX_MODS%;target\hellofx-1.0-SNAPSHOT.jar" --add-modules=hellofx --output jre
     jre\bin\java -m hellofx/org.openjfx.MainApp
