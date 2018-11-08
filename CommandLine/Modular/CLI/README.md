@@ -48,5 +48,5 @@ To run the project:
 
 To create and run a custom JRE:
 
-    %JAVA_HOME%\bin\jlink --module-path "%PATH_TO_FX_MODS%;mods" --add-modules=hellofx --output hellofx
+    jlink --module-path "%PATH_TO_FX_MODS%;mods" --add-modules=hellofx --output hellofx
     hellofx\bin\java -m hellofx/hellofx.HelloFX

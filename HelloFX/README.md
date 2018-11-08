@@ -80,4 +80,4 @@ If you run on Windows, follow these steps:
 
 To run the project:
     
-    gradlew.bat run
+    gradlew run

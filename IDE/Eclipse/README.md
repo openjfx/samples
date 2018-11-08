@@ -100,7 +100,7 @@ On Windows run:
 
     cd IDE\Eclipse\Modular\Ant\HelloFX
     set PATH_TO_FX_MODS="path\to\javafx-jmods-11"
-    %JAVA_HOME%\bin\jlink --module-path "%PATH_TO_FX_MODS%;hellofx" --add-modules=hellofx --output jre
+    jlink --module-path "%PATH_TO_FX_MODS%;hellofx" --add-modules=hellofx --output jre
     jre\bin\java -m hellofx/org.openjfx.MainApp
 
 ### Maven
@@ -131,7 +131,7 @@ On Windows run:
 
     cd IDE\NetBeans\Modular\Ant\hellofx
     set PATH_TO_FX_MODS="path\to\javafx-jmods-11"
-    %JAVA_HOME%\bin\jlink --module-path "%PATH_TO_FX_MODS%;target\hellofx-1.0-SNAPSHOT.jar" --add-modules=hellofx --output jre
+    jlink --module-path "%PATH_TO_FX_MODS%;target\hellofx-1.0-SNAPSHOT.jar" --add-modules=hellofx --output jre
     jre\bin\java -m hellofx/org.openjfx.MainApp
 
 ### Gradle

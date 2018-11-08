@@ -37,7 +37,7 @@ If you run on Windows, follow these steps:
 
 To run the project:
     
-    gradlew.bat run
+    gradlew run
 
 To create custom JRE:
 
@@ -45,5 +45,5 @@ Download [JavaFX jmods](https://gluonhq.com/products/javafx/) for your operating
 system and unzip to a desired location.
 
     export PATH_TO_FX_MODS=path/to/javafx-jmods-11
-    gradlew.bat jlink
+    gradlew jlink
     build\hellofx\bin\java -m hellofx/hellofx.HelloFX 

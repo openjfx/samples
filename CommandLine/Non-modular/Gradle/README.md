@@ -33,10 +33,10 @@ If you run on Windows, follow these steps:
 
 To run the project:
     
-    gradlew.bat run
+    gradlew run
 
 To create a fat jar:
 
-    gradlew.bat jar
+    gradlew jar
     java -jar build\libs\hellofx.jar
 
