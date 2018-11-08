@@ -13,7 +13,7 @@ Note: If you get this message when you add JDK 11:
 
 then install this patch from MarketPlace: `Java 11 support for Eclipse 2018-09 (4.9)`.
 
-## Ant
+## Java
 
 For the first time only:
 
@@ -66,7 +66,7 @@ Run with Run configurations -> Gradle Project -> hellofx
 
 ## Modular
 
-### Ant
+### Java
 
 - Download [JavaFX jmods](https://gluonhq.com/products/javafx/) for your operating 
 system and unzip to a desired location.

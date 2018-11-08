@@ -10,7 +10,7 @@ is properly set to the Java 11 installation directory.
 The samples assume NetBeans 10 runs on JDK 11 (this can be set editing the `etc/netbeans.conf` file
 and setting `netbeans_jdkhome="/path/to/jdk11"`).
 
-## Ant
+## Java
 
 For the first time only:
 
@@ -43,7 +43,7 @@ from the Tasks context-menu.
 Download [JavaFX jmods](https://gluonhq.com/products/javafx/) for your operating 
 system and unzip to a desired location.
 
-### Ant
+### Java
 
 For the first time only:
 

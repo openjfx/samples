@@ -7,7 +7,7 @@ Version IntelliJ IDEA 2018.2.5
 Download an appropriate [JDK 11](https://jdk.java.net/11/) for your operating system. Make sure `JAVA_HOME` 
 is properly set to the Java 11 installation directory. 
 
-## Ant
+## Java
 
 Download [JavaFX SDK](https://gluonhq.com/products/javafx/) for your operating 
 system and unzip to a desired location.
@@ -30,7 +30,7 @@ from the Gradle window.
 Download [JavaFX jmods](https://gluonhq.com/products/javafx/) for your operating 
 system and unzip to a desired location.
 
-### Ant
+### Java
 
 Download [JavaFX SDK](https://gluonhq.com/products/javafx/) for your operating 
 system and unzip to a desired location.
