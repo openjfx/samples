@@ -28,4 +28,18 @@ can be part of the project or under the gradle user home `USER_HOME/.gradle`.
 
 Clone the sample, open it with Eclipse and refresh the Gradle project. 
 
-Run with Run configurations -> Gradle Project -> hellofx
+Run from Gradle Tasks -> `application -> run`.
+
+Run from Gradle Tasks -> `other -> jlink` to create a custom runtime. 
+
+#### Linux / Mac
+
+On Linux or Mac run:
+
+    build/hellofx/bin/java -m hellofx/org.openjfx.MainApp
+
+#### Windows
+
+On Windows, run:
+
+    build\hellofx\bin\java -m hellofx/org.openjfx.MainApp
