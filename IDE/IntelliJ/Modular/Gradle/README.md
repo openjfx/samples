@@ -23,10 +23,10 @@ from the Gradle window. Run the `jlink` task to create a custom runtime image:
 
 On Linux or Mac run:
 
-    hellofx/bin/java -m hellofx/org.openjfx.MainApp
+    build/hellofx/bin/java -m hellofx/org.openjfx.MainApp
 
 #### Windows
 
 On Windows, run:
 
-    hellofx\bin\java -m hellofx/org.openjfx.MainApp
+    build\hellofx\bin\java -m hellofx/org.openjfx.MainApp
