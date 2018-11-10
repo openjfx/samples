@@ -40,12 +40,12 @@ On Linux or Mac run:
 
     cd IDE/Eclipse/Modular/Java/HelloFX
     export PATH_TO_FX_MODS=path/to/javafx-jmods-11
-    $JAVA_HOME/bin/jlink --module-path $PATH_TO_FX_MODS:hellofx --add-modules=hellofx --output jre
+    $JAVA_HOME/bin/jlink --module-path $PATH_TO_FX_MODS:bin/hellofx --add-modules=hellofx --output jre
     jre/bin/java -m hellofx/org.openjfx.MainApp
 
 On Windows run:
 
     cd IDE\Eclipse\Modular\Java\HelloFX
     set PATH_TO_FX_MODS="path\to\javafx-jmods-11"
-    jlink --module-path "%PATH_TO_FX_MODS%;hellofx" --add-modules=hellofx --output jre
+    jlink --module-path "%PATH_TO_FX_MODS%;bin\hellofx" --add-modules=hellofx --output jre
     jre\bin\java -m hellofx/org.openjfx.MainApp
