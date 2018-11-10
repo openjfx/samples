@@ -29,4 +29,4 @@ from the Tasks context-menu. Run the `jlink` task to create a custom runtime ima
 
 Run:
 
-    hellofx/bin/java -m hellofx/org.openjfx.MainApp
+    build/hellofx/bin/java -m hellofx/org.openjfx.MainApp
