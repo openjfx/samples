@@ -27,6 +27,14 @@ can be part of the project or under the gradle user home `USER_HOME/.gradle`.
 Clone the sample, open it with NetBeans and reload the project. Build and run
 from the Tasks context-menu. Run the `jlink` task to create a custom runtime image:
 
-Run:
+#### Linux / Mac
+
+On Linux or Mac run:
 
     build/hellofx/bin/java -m hellofx/org.openjfx.MainApp
+
+#### Windows
+
+On Windows, run:
+
+    build\hellofx\bin\java -m hellofx/org.openjfx.MainApp
