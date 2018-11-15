@@ -21,7 +21,7 @@ system and unzip to a desired location.
 Clone the sample and open the project with Eclipse. 
 
 Note: For Eclipse lower than 2018-12, the JavaFX required jars 
-(`javafx.base`, `javafx.graphics`, `javafx.controls` and `javafx.fxml`) have been directly 
+(`javafx.base`, `javafx.graphics`, `javafx.controls` and `javafx.fxml`) have been directly added 
 to the module path (`Run -> Run Configurations... -> Java Application -> Dependencies`).
 
 Run with `Run configurations -> Java Application -> modHelloFX`
