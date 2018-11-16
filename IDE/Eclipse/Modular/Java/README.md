@@ -18,19 +18,11 @@ then install this patch from MarketPlace: `Java 11 support for Eclipse 2018-09 (
 - Download [JavaFX jmods](https://gluonhq.com/products/javafx/) for your operating 
 system and unzip to a desired location.
 
-Clone the sample, edit the file `.settings/modHelloFX.launch` and change the value for
-`org.eclipse.jdt.launching.MODULE_CLI_OPTIONS` to:
+Clone the sample and open the project with Eclipse. 
 
-On Linux, Mac:
-
-    value="--module-path path/to/javafx-sdk-11/lib:hellofx"
-
-On Windows:
-
-    value="--module-path path\to\javafx-sdk-11\lib;hellofx"
-
-
-Open the project with Eclipse.
+Note: For Eclipse lower than 2018-12, the JavaFX required jars 
+(`javafx.base`, `javafx.graphics`, `javafx.controls` and `javafx.fxml`) have been directly added 
+to the module path (`Run -> Run Configurations... -> Java Application -> Dependencies`).
 
 Run with `Run configurations -> Java Application -> modHelloFX`
 

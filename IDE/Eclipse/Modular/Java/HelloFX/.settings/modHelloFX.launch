@@ -8,13 +8,19 @@
     </listAttribute>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_CLASSPATH_ONLY_JAR" value="false"/>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="false"/>
-    <booleanAttribute key="org.eclipse.jdt.launching.DEFAULT_MODULE_CLI_OPTIONS" value="false"/>
+    <listAttribute key="org.eclipse.jdt.launching.CLASSPATH"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.DEFAULT_CLASSPATH" value="false"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.DEFAULT_MODULE_CLI_OPTIONS" value="true"/>
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.openjfx.MainApp"/>
     <listAttribute key="org.eclipse.jdt.launching.MODULEPATH">
         <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;runtimeClasspathEntry path=&quot;4&quot; projectName=&quot;HelloFX&quot; type=&quot;1&quot;/&gt;&#10;"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;runtimeClasspathEntry externalArchive=&quot;${PATH_TO_FX}/javafx.base.jar&quot; path=&quot;4&quot; type=&quot;2&quot;/&gt;&#10;"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;runtimeClasspathEntry externalArchive=&quot;${PATH_TO_FX}/javafx.controls.jar&quot; path=&quot;4&quot; type=&quot;2&quot;/&gt;&#10;"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;runtimeClasspathEntry externalArchive=&quot;${PATH_TO_FX}/javafx.fxml.jar&quot; path=&quot;4&quot; type=&quot;2&quot;/&gt;&#10;"/>
+        <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;runtimeClasspathEntry externalArchive=&quot;${PATH_TO_FX}/javafx.graphics.jar&quot; path=&quot;4&quot; type=&quot;2&quot;/&gt;&#10;"/>
         <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;runtimeClasspathEntry containerPath=&quot;org.eclipse.jdt.USER_LIBRARY/JavaFX11&quot; javaProject=&quot;HelloFX&quot; path=&quot;4&quot; type=&quot;4&quot;/&gt;&#10;"/>
         <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;runtimeClasspathEntry containerPath=&quot;org.eclipse.jdt.launching.JRE_CONTAINER&quot; path=&quot;4&quot; type=&quot;4&quot;/&gt;&#10;"/>
     </listAttribute>
-    <stringAttribute key="org.eclipse.jdt.launching.MODULE_CLI_OPTIONS" value="--module-path ${PATH_TO_FX}:hellofx"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MODULE_CLI_OPTIONS" value=""/>
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="HelloFX"/>
 </launchConfiguration>
