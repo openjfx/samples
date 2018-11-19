@@ -14,6 +14,7 @@ buildscript {
 apply plugin: 'application'
 apply plugin: 'com.google.osdetector'
 apply plugin: 'org.javamodularity.moduleplugin'
+apply plugin: 'eclipse'
 
 ext.platform = osdetector.os == 'osx' ? 'mac' : osdetector.os == 'windows' ? 'win' : osdetector.os
 
@@ -29,6 +30,18 @@ dependencies {
 }
 
 mainClassName = "$moduleName/org.openjfx.MainApp"
+
+eclipse {
+    classpath {
+        file {
+            whenMerged {
+                entries.findAll { it.properties.kind.equals('lib') }.each {
+                    it.entryAttributes['module'] = 'true'
+                }
+            }
+        }
+    }
+}
 
 def java_home = hasProperty('org.gradle.java.home') ? getProperty('org.gradle.java.home') : System.getenv('JAVA_HOME')
 def fx_jmods = hasProperty('path.to.fx.mods') ? getProperty('path.to.fx.mods') : System.getenv('PATH_TO_FX_MODS')
