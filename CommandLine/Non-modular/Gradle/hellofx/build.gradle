@@ -1,52 +1,24 @@
-buildscript {
-    repositories {
-        mavenCentral()
-    }
-    dependencies {
-        classpath 'com.google.gradle:osdetector-gradle-plugin:1.6.0'
-    }
+plugins {
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.5'
 }
-
-apply plugin: 'application'
-apply plugin: 'com.google.osdetector'
-
-ext.platform = osdetector.os == 'osx' ? 'mac' : osdetector.os == 'windows' ? 'win' : osdetector.os
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    compile "org.openjfx:javafx-base:11:$platform"
-    compile "org.openjfx:javafx-graphics:11:$platform"
-    compile "org.openjfx:javafx-controls:11:$platform"
-
-    /* uncomment for cross-platform jar:
-    compile "org.openjfx:javafx-graphics:11:win"
-    compile "org.openjfx:javafx-graphics:11:linux"
-    compile "org.openjfx:javafx-graphics:11:mac"
-    */
+    /* uncomment for cross-platform jar: */
+//    compile "org.openjfx:javafx-graphics:11:win"
+//    compile "org.openjfx:javafx-graphics:11:linux"
+//    compile "org.openjfx:javafx-graphics:11:mac"
 }
 
-compileJava {
-    doFirst {
-        options.compilerArgs = [
-                '--module-path', classpath.asPath,
-                '--add-modules', 'javafx.controls'
-        ]
-    }
+javafx {
+    modules = [ 'javafx.controls' ]
 }
 
-run {
-    doFirst {
-        jvmArgs = [
-                '--module-path', classpath.asPath,
-                '--add-modules', 'javafx.controls'
-        ]
-    }
-}
-
-mainClassName = 'hellofx.Launcher'
+mainClassName = 'hellofx.HelloFX'
 
 jar {
     manifest {
