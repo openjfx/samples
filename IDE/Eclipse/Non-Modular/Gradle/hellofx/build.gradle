@@ -19,7 +19,7 @@ javafx {
 }
 
 run {
-    if (System.getProperty("os.name").startsWith("Windows")) {
+    if (osdetector.os == 'windows') {
         // Temporal fix for Eclipse with JDK 1.8 and Windows 
         systemProperty "java.library.path", "C:\tmp"
     }
