@@ -6,7 +6,8 @@ OpenJFX Docs Samples
 Description
 ---
 
-This repository contains a collection of JavaFX 11 samples that can be run with different options and build tools.
+This repository contains a collection of HelloFX samples. Each one is a very simple 
+HelloWorld sample created with JavaFX 11 that can be run with different options and build tools.
 
 The related documentation for each sample can be found [here](https://openjfx.io/openjfx-docs/).
 
@@ -150,7 +151,8 @@ Contribution<a name="Contribution" />
 ---
 
 This project welcomes all types of contributions and suggestions. 
-We encourage you to report issues, create suggestions and submit pull requests.
+We encourage you to report issues, create suggestions and submit 
+[pull requests](https://help.github.com/articles/about-pull-requests/).
 
-Please go through [list of issues](https://github.com/openjfx/samples/issues) 
+Please go through the [list of issues](https://github.com/openjfx/samples/issues) 
 to make sure that you are not duplicating an issue.
