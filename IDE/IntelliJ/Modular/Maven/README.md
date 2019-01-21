@@ -2,7 +2,7 @@
 
 JavaFX 11 samples to run from IntelliJ with different options and build tools
 
-Version IntelliJ IDEA 2018.2.5
+Version IntelliJ IDEA 2018.3.3
 
 Download an appropriate [JDK 11](https://jdk.java.net/11/) for your operating system. Make sure `JAVA_HOME` 
 is properly set to the Java 11 installation directory. 
@@ -32,13 +32,13 @@ To create and run a custom JRE, from terminal:
 On Linux or Mac run:
 
     cd IDE/IntelliJ/Modular/Maven/hellofx
-    export PATH_TO_FX_MODS=path/to/javafx-jmods-11
+    export PATH_TO_FX_MODS=path/to/javafx-jmods-11.0.2
     $JAVA_HOME/bin/jlink --module-path $PATH_TO_FX_MODS:target/hellofx-1.0-SNAPSHOT.jar --add-modules=hellofx --output jre
     jre/bin/java -m hellofx/org.openjfx.MainApp
 
 On Windows run:
 
     cd IDE\IntelliJ\Modular\Maven\hellofx
-    set PATH_TO_FX_MODS="path\to\javafx-jmods-11"
+    set PATH_TO_FX_MODS="path\to\javafx-jmods-11.0.2"
     jlink --module-path "%PATH_TO_FX_MODS%;target\hellofx-1.0-SNAPSHOT.jar" --add-modules=hellofx --output jre
     jre\bin\java -m hellofx/org.openjfx.MainApp

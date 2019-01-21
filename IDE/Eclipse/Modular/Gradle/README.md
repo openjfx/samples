@@ -2,7 +2,7 @@
 
 JavaFX 11 samples to run from Eclipse with different options and build tools
 
-Version Eclipse 2018-09 (4.9) Build id: I20180906-0745.
+Version Eclipse: 2018-12 (4.10.0)
 
 Download an appropriate [JDK 11](https://jdk.java.net/11/) for your operating system. Make sure `JAVA_HOME` 
 is properly set to the Java 11 installation directory. 
@@ -17,8 +17,8 @@ then install this patch from MarketPlace: `Java 11 support for Eclipse 2018-09 (
 
 For the first time only:
 
-- Make sure you have the Buildship Gradle Integration 2.0 plugin installed. Update to 2.2.3 version
-from this [URL](http://download.eclipse.org/buildship/updates/e48/snapshots/2.x/).
+- Make sure you have the Buildship Gradle Integration 3.0 plugin installed. Update to 3.0.0 version
+from this [URL](http://download.eclipse.org/buildship/updates/e410/snapshots/3.x/).
 
 - Add `org.gradle.java.home` to a `gradle.properties` file, with the path to JDK 11, and
  `path.to.fx.mods` to a `gradle.properties` file, with the path to JDK jmods. This file 

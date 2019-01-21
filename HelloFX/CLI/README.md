@@ -15,7 +15,7 @@ system and unzip to a desired location.
 If you run on Linux or Mac, follow these steps:
 
     cd HelloFX/CLI/hellofx
-    export PATH_TO_FX=path/to/javafx-sdk-11/lib
+    export PATH_TO_FX=path/to/javafx-sdk-11.0.2/lib
 
 Compile:
 
@@ -30,7 +30,7 @@ Run:
 If you run on Windows, follow these steps:
 
     cd HelloFX\CLI\hellofx
-    set PATH_TO_FX="path\to\javafx-sdk-11\lib"
+    set PATH_TO_FX="path\to\javafx-sdk-11.0.2\lib"
 
 Compile:
 

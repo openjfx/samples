@@ -2,7 +2,7 @@
 
 JavaFX 11 samples to run from NetBeans with different options and build tools
 
-Version NetBeans [10vc2](https://dist.apache.org/repos/dist/dev/incubator/netbeans/incubating-netbeans/incubating-10.0-vc2/incubating-netbeans-10.0-vc2-bin.zip)
+Version NetBeans [10.0](https://netbeans.apache.org/download/nb100/nb100.html)
 
 Download an appropriate [JDK 11](https://jdk.java.net/11/) for your operating system. Make sure `JAVA_HOME` 
 is properly set to the Java 11 installation directory. 
@@ -17,7 +17,7 @@ system and unzip to a desired location.
 
 For the first time only:
 
-- Install manually the Gradle plugin for NetBeans 2.0.1 from the 
+- Install manually the Gradle plugin for NetBeans 2.0.2 from the 
 [GitHub repository](https://github.com/kelemen/netbeans-gradle-project/releases).
 
 - Add `org.gradle.java.home` to a `gradle.properties` file, with the path to JDK 11, and
