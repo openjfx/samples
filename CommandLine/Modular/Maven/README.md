@@ -19,7 +19,7 @@ If you run on Linux or Mac, follow these steps:
 To create custom JRE:
 
     cd CommandLine/Modular/Maven/hellofx
-    export PATH_TO_FX_MODS=path/to/javafx-jmods-11
+    export PATH_TO_FX_MODS=path/to/javafx-jmods-11.0.2
     $JAVA_HOME/bin/jlink --module-path $PATH_TO_FX_MODS:target/hellofx-1.0-SNAPSHOT.jar --add-modules=hellofx --output jre
     jre/bin/java -m hellofx/org.openjfx.MainApp
 
@@ -33,6 +33,6 @@ If you run on Windows, follow these steps:
 To create custom JRE:
 
     cd CommandLine\Modular\Maven\hellofx
-    set PATH_TO_FX_MODS="path\to\javafx-jmods-11"
+    set PATH_TO_FX_MODS="path\to\javafx-jmods-11.0.2"
     jlink --module-path "%PATH_TO_FX_MODS%;target\hellofx-1.0-SNAPSHOT.jar" --add-modules=hellofx --output jre
     jre\bin\java -m hellofx/org.openjfx.MainApp
