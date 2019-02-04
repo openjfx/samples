@@ -9,9 +9,9 @@ repositories {
 
 dependencies {
     /* uncomment for cross-platform jar: */
-//    compile "org.openjfx:javafx-graphics:11.0.2:win"
-//    compile "org.openjfx:javafx-graphics:11.0.2:linux"
-//    compile "org.openjfx:javafx-graphics:11.0.2:mac"
+//    compileOnly "org.openjfx:javafx-graphics:$javafx.version:win"
+//    compileOnly "org.openjfx:javafx-graphics:$javafx.version:linux"
+//    compileOnly "org.openjfx:javafx-graphics:$javafx.version:mac"
 }
 
 javafx {
@@ -25,6 +25,6 @@ jar {
         attributes 'Main-Class': 'hellofx.Launcher'
     }
     from {
-        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+        configurations.compileClasspath.collect { it.isDirectory() ? it : zipTree(it) }
     }
 }
