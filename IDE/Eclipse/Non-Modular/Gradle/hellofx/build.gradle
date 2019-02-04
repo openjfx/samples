@@ -15,7 +15,7 @@ javafx {
 }
 
 run {
-    if ("$javafx.platform" == 'windows') {
+    if (javafx.platform.classifier == 'win') {
         // Temporal fix for Eclipse with JDK 1.8 and Windows 
         systemProperty "java.library.path", "C:\tmp"
     }
