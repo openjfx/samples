@@ -1,9 +1,9 @@
 # samples
 
-JavaFX 11 samples to run with different options and build tools.
+JavaFX 12 samples to run with different options and build tools.
 
-Download an appropriate [JDK 11](https://jdk.java.net/11/) for your operating system. Make sure `JAVA_HOME` 
-is properly set to the Java 11 installation directory. 
+Download an appropriate [JDK 12](https://jdk.java.net/12/) for your operating system. Make sure `JAVA_HOME` 
+is properly set to the Java 12 installation directory. 
 
 ## Modular - Gradle
 
@@ -19,15 +19,10 @@ To run the project:
     
     ./gradlew run
 
-To create custom JRE:
+To create custom JRE you can use the `org.beryx.jlink` plugin:
 
-Download [JavaFX jmods](https://gluonhq.com/products/javafx/) for your operating 
-system and unzip to a desired location.
-
-    export PATH_TO_FX_MODS=path/to/javafx-jmods-11
     ./gradlew jlink
-    build/hellofx/bin/java -m hellofx/hellofx.HelloFX 
-
+    build/image/bin/hellofx
 
 ### Windows
 
@@ -39,11 +34,7 @@ To run the project:
     
     gradlew run
 
-To create custom JRE:
+To create custom JRE with the `org.beryx.jlink` plugin:
 
-Download [JavaFX jmods](https://gluonhq.com/products/javafx/) for your operating 
-system and unzip to a desired location.
-
-    export PATH_TO_FX_MODS=path/to/javafx-jmods-11
     gradlew jlink
-    build\hellofx\bin\java -m hellofx/hellofx.HelloFX 
+    build\image\bin\hellofx

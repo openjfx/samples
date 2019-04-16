@@ -1,18 +1,14 @@
 package org.openjfx;
 
-import java.net.URL;
-import java.util.ResourceBundle;
 import javafx.fxml.FXML;
-import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 
-public class FXMLController implements Initializable {
-    
+public class FXMLController {
+
     @FXML
     private Label label;
-    
-    @Override
-    public void initialize(URL url, ResourceBundle rb) {
+
+    public void initialize() {
         label.setText("Hello, JavaFX");
-    }    
+    }
 }

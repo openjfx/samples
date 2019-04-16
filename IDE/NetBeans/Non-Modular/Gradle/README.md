@@ -1,21 +1,16 @@
 ## Non-modular samples for NetBeans
 
-JavaFX 11 samples to run from NetBeans with different options and build tools
+JavaFX 12 samples to run from NetBeans with different options and build tools
 
-Version NetBeans [10.0](https://netbeans.apache.org/download/nb100/nb100.html)
+Version NetBeans [11.0](https://netbeans.apache.org/download/nb110/nb110.html)
 
-Download an appropriate [JDK 11](https://jdk.java.net/11/) for your operating system. Make sure `JAVA_HOME` 
-is properly set to the Java 11 installation directory. 
+Download an appropriate [JDK 12](https://jdk.java.net/12/) for your operating system. Make sure `JAVA_HOME` 
+is properly set to the Java 12 installation directory. 
 
-The samples assume NetBeans 10 runs on JDK 11 (this can be set editing the `etc/netbeans.conf` file
-and setting `netbeans_jdkhome="/path/to/jdk11"`).
+The samples assume NetBeans 11 runs on JDK 12 (this can be set editing the `etc/netbeans.conf` file
+and setting `netbeans_jdkhome="/path/to/jdk12"`).
 
 ### Gradle
 
-For the first time only:
-
-- Install manually the Gradle plugin for NetBeans 2.0.2 from the 
-[GitHub repository](https://github.com/kelemen/netbeans-gradle-project/releases).
-
-Clone the sample, open it with NetBeans and reload the project. Build and run
-from the Tasks context-menu.
+Clone the sample, open it with NetBeans. Select the build.gradle file, and build and run
+from the tasks in the Navigator window.

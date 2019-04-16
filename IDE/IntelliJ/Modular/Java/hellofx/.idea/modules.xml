@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/hellofx/hellofx.iml" filepath="$PROJECT_DIR$/hellofx/hellofx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hellofx.iml" filepath="$PROJECT_DIR$/hellofx.iml" />
     </modules>
   </component>
 </project>

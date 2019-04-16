@@ -1,6 +1,6 @@
 # samples
 
-JavaFX 11 samples to run with different options and build tools.
+JavaFX 12 samples to run with different options and build tools.
 
 ## Modular - Maven
 
@@ -14,13 +14,12 @@ system and unzip to a desired location.
 If you run on Linux or Mac, follow these steps:
 
     cd CommandLine/Modular/Maven/hellofx
-    mvn clean compile package exec:java
+    mvn clean package javafx:run
 
 To create custom JRE:
 
-    cd CommandLine/Modular/Maven/hellofx
-    export PATH_TO_FX_MODS=path/to/javafx-jmods-11.0.2
-    $JAVA_HOME/bin/jlink --module-path $PATH_TO_FX_MODS:target/hellofx-1.0-SNAPSHOT.jar --add-modules=hellofx --output jre
+    export PATH_TO_FX_MODS=path/to/javafx-jmods-12
+    $JAVA_HOME/bin/jlink --module-path $PATH_TO_FX_MODS:target/hellofx-1.0-SNAPSHOT.jar --add-modules hellofx --output jre
     jre/bin/java -m hellofx/org.openjfx.MainApp
 
 ### Windows
@@ -28,11 +27,10 @@ To create custom JRE:
 If you run on Windows, follow these steps:
 
     cd CommandLine\Modular\Maven\hellofx
-    mvn clean compile package exec:java
+    mvn clean package javafx:run
 
 To create custom JRE:
 
-    cd CommandLine\Modular\Maven\hellofx
-    set PATH_TO_FX_MODS="path\to\javafx-jmods-11.0.2"
-    jlink --module-path "%PATH_TO_FX_MODS%;target\hellofx-1.0-SNAPSHOT.jar" --add-modules=hellofx --output jre
+    set PATH_TO_FX_MODS="path\to\javafx-jmods-12"
+    jlink --module-path "%PATH_TO_FX_MODS%;target\hellofx-1.0-SNAPSHOT.jar" --add-modules hellofx --output jre
     jre\bin\java -m hellofx/org.openjfx.MainApp

@@ -1,14 +1,14 @@
 ## Modular samples for NetBeans
 
-JavaFX 11 samples to run from NetBeans with different options and build tools
+JavaFX 12 samples to run from NetBeans with different options and build tools
 
-Version NetBeans [10.0](https://netbeans.apache.org/download/nb100/nb100.html)
+Version NetBeans [11.0](https://netbeans.apache.org/download/nb110/nb110.html)
 
-Download an appropriate [JDK 11](https://jdk.java.net/11/) for your operating system. Make sure `JAVA_HOME` 
-is properly set to the Java 11 installation directory. 
+Download an appropriate [JDK 12](https://jdk.java.net/12/) for your operating system. Make sure `JAVA_HOME` 
+is properly set to the Java 12 installation directory. 
 
-The samples assume NetBeans 10 runs on JDK 11 (this can be set editing the `etc/netbeans.conf` file
-and setting `netbeans_jdkhome="/path/to/jdk11"`).
+The samples assume NetBeans 11 runs on JDK 12 (this can be set editing the `etc/netbeans.conf` file
+and setting `netbeans_jdkhome="/path/to/jdk12"`).
 
 Download [JavaFX jmods](https://gluonhq.com/products/javafx/) for your operating 
 system and unzip to a desired location.
@@ -21,13 +21,13 @@ For the first time only:
 system and unzip to a desired location.
 
 - Open NetBeans and create a global Library under `NetBeans -> Tools -> Libraries -> New Library`.
-Name it `JavaFX11` and include the jars under the lib folder from JavaFX 11 (but not the `src.zip` file).
+Name it `JavaFX12` and include the jars under the lib folder from JavaFX 12 (but not the `src.zip` file).
 
 - Create a global Library under `NetBeans -> Tools -> Libraries -> New Library`.
-Name it `JavaFXMODS11` and include the folder JavaFX jmods 11.
+Name it `JavaFXMODS12` and include the folder JavaFX jmods 12.
 
-Clone the sample, open it with NetBeans, and make sure the paths for Java 11 and 
-JavaFX 11 match those on your machine.
+Clone the sample, open it with NetBeans, and make sure the paths for Java 12 and 
+JavaFX 12 match those on your machine.
 
 Clean and build with regular button to create a custom JRE.
 Run with regular button.
