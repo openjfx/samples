@@ -1,45 +1,59 @@
 ## Modular samples for Eclipse
 
-JavaFX 11 samples to run from Eclipse with different options and build tools
+JavaFX 12 samples to run from Eclipse with different options and build tools
 
-Version Eclipse: 2018-12 (4.10.0)
+Version Eclipse: 2019-03 (4.11.0)
 
-Download an appropriate [JDK 11](https://jdk.java.net/11/) for your operating system. Make sure `JAVA_HOME` 
-is properly set to the Java 11 installation directory. 
+Install this patch from MarketPlace: `Java 12 support for Eclipse 2019-03 (4.11)`.
 
-Note: If you get this message when you add JDK 11:
- 
-> You selected a JRE that this version of Eclipse JDT does not yet support fully. Some of the features may not work as expected.
-
-then install this patch from MarketPlace: `Java 11 support for Eclipse 2018-09 (4.9)`.
+Download an appropriate [JDK 12](https://jdk.java.net/12/) for your operating system. Make sure `JAVA_HOME` 
+is properly set to the Java 12 installation directory. 
 
 ### Maven
 
-Clone the sample, open it with Eclipse, and make sure the paths for Java 11 and 
-JavaFX 11 match those on your machine.
+For the first time only:
+
+- Make sure you have the Maven Integration for Eclipse m2e plugin installed.
+
+- Add the JavaFX Maven archetypes `org.openjfx:javafx-archetype-simple:0.0.1` and `org.openjfx:javafx-archetype-fxml:0.0.1`
+
+Clone the sample, open it with Eclipse, and make sure the paths for Java 12 and 
+JavaFX 12 match those on your machine.
 
 Run with `Run configurations -> Maven Build -> hellofx`.
 
-As well, this will work from the terminal on Linux or Mac:
+As well, this will work from the terminal:
 
-    java --module-path $PATH_TO_FX:target/hellofx-1.0-SNAPSHOT.jar -m hellofx/org.openjfx.MainApp
-
-or on Windows:
+    mvn clean javafx:run
     
-    java --module-path %PATH_TO_FX%:target\hellofx-1.0-SNAPSHOT.jar -m hellofx/org.openjfx.MainApp
+Note: on Windows, under Eclipse running Oracle JDK 1.8, you need to add `-Djava.library.path=C:\` 
+to the JavaFX maven plugin:
 
+    <configuration>
+        <executable>/path/to/Java/12/bin/java</executable>
+        <options>
+            <option>-Djava.library.path=C:\tmp</option>
+        </options>
+        <mainClass>hellofx/org.openjfx.hellofx.App</mainClass>
+    </configuration>
+    
+    
+#### Custom Runtime
+    
 To create and run a custom JRE, from terminal:
 
 On Linux or Mac run:
 
-    cd IDE/NetBeans/Modular/Maven/hellofx
-    export PATH_TO_FX_MODS=path/to/javafx-jmods-11.0.2
-    $JAVA_HOME/bin/jlink --module-path $PATH_TO_FX_MODS:target/hellofx-1.0-SNAPSHOT.jar --add-modules=hellofx --output jre
-    jre/bin/java -m hellofx/org.openjfx.MainApp
+    cd IDE/Eclipse/Modular/Maven/hellofx
+    mvn clean package
+    export PATH_TO_FX_MODS=path/to/javafx-jmods-12
+    $JAVA_HOME/bin/jlink --module-path $PATH_TO_FX_MODS:target/hellofx-0.0.1-SNAPSHOT.jar --add-modules=hellofx --output jre
+    jre/bin/java -m hellofx/org.openjfx.hellofx.App
 
 On Windows run:
 
-    cd IDE\NetBeans\Modular\Maven\hellofx
-    set PATH_TO_FX_MODS="path\to\javafx-jmods-11.0.2"
-    jlink --module-path "%PATH_TO_FX_MODS%;target\hellofx-1.0-SNAPSHOT.jar" --add-modules=hellofx --output jre
-    jre\bin\java -m hellofx/org.openjfx.MainApp
+    cd IDE\Eclipse\Modular\Maven\hellofx
+    mvn clean package
+    set PATH_TO_FX_MODS="path\to\javafx-jmods-12"
+    jlink --module-path "%PATH_TO_FX_MODS%;target\hellofx-0.0.1-SNAPSHOT.jar" --add-modules=hellofx --output jre
+    jre\bin\java -m hellofx/org.openjfx.hellofx.App

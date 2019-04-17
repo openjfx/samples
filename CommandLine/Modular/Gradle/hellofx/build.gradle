@@ -1,6 +1,7 @@
 plugins {
   id 'application'
   id 'org.openjfx.javafxplugin' version '0.0.7'
+  id 'org.beryx.jlink' version '2.9.4'
 }
 
 repositories {
@@ -8,27 +9,16 @@ repositories {
 }
 
 javafx {
+    version = "12"
     modules = [ 'javafx.controls' ]
 }
 
 mainClassName = "$moduleName/hellofx.HelloFX"
 
-def java_home = hasProperty('org.gradle.java.home') ? getProperty('org.gradle.java.home') : System.getenv('JAVA_HOME')
-def fx_jmods = hasProperty('path.to.fx.mods') ? getProperty('path.to.fx.mods') : System.getenv('PATH_TO_FX_MODS')
 
-task jlink(type: Exec) {
-    dependsOn 'clean'
-    dependsOn 'jar'
-
-    workingDir 'build'
-
-    if (java_home == null) {
-        throw new RuntimeException("java_home is not defined.")
+jlink {
+    options = ['--strip-debug', '--compress', '2', '--no-header-files', '--no-man-pages']
+    launcher {
+        name = 'hellofx'
     }
-    if (fx_jmods == null) {
-        throw new RuntimeException("fx_jmods is not defined.")
-    }
-    commandLine "${java_home}/bin/jlink", '--module-path', "libs${File.pathSeparatorChar}${fx_jmods}",
-            '--add-modules', "${moduleName}", '--output', "${moduleName}", '--strip-debug',
-            '--compress', '2', '--no-header-files', '--no-man-pages'
 }

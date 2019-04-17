@@ -17,7 +17,7 @@ public class MainApp extends Application {
         Scene scene = new Scene(root);
         scene.getStylesheets().add(getClass().getResource("styles.css").toExternalForm());
 
-        stage.setTitle("JavaFX and Gradle");
+        stage.setTitle("JavaFX 12");
         stage.setScene(scene);
         stage.show();
     }

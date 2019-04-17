@@ -11,7 +11,6 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <mainClass>org.openjfx.MainApp</mainClass>
     </properties>
 
     <organization>
@@ -23,12 +22,12 @@
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-            <version>11.0.2</version>
+            <version>12</version>
         </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
-            <version>11.0.2</version>
+            <version>12</version>
         </dependency>
     </dependencies>
     <build>
@@ -38,22 +37,15 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.0</version>
                 <configuration>
-                    <release>11</release>
+                    <release>12</release>
                 </configuration>
             </plugin>
             <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>exec-maven-plugin</artifactId>
-                <version>1.6.0</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>java</goal>
-                        </goals>
-                    </execution>
-                </executions>
+                <groupId>org.openjfx</groupId>
+                <artifactId>javafx-maven-plugin</artifactId>
+                <version>0.0.1</version>
                 <configuration>
-                    <mainClass>org.openjfx.MainApp</mainClass>
+                    <mainClass>hellofx/org.openjfx.MainApp</mainClass>
                 </configuration>
             </plugin>
         </plugins>

@@ -1,34 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>org.openjfx</groupId>
-    <artifactId>hellofx</artifactId>
+    <artifactId>HelloFX</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
-
-    <name>hellofx</name>
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <mainClass>org.openjfx.MainApp</mainClass>
+        <maven.compiler.source>12</maven.compiler.source>
+        <maven.compiler.target>12</maven.compiler.target>
     </properties>
-
-    <organization>
-        <!-- Used as the 'Vendor' for JNLP generation -->
-        <name>Your Organisation</name>
-    </organization>
-
     <dependencies>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-            <version>11.0.2</version>
+            <version>12</version>
         </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
-            <version>11.0.2</version>
+            <version>12</version>
         </dependency>
     </dependencies>
     <build>
@@ -38,25 +28,17 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.0</version>
                 <configuration>
-                    <release>11</release>
+                    <release>12</release>
                 </configuration>
             </plugin>
             <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>exec-maven-plugin</artifactId>
-                <version>1.6.0</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>java</goal>
-                        </goals>
-                    </execution>
-                </executions>
+                <groupId>org.openjfx</groupId>
+                <artifactId>javafx-maven-plugin</artifactId>
+                <version>0.0.1</version>
                 <configuration>
-                    <mainClass>org.openjfx.MainApp</mainClass>
+                    <mainClass>hellofx/org.openjfx.hellofx.App</mainClass>
                 </configuration>
             </plugin>
         </plugins>
     </build>
-
 </project>
