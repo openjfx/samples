@@ -7,7 +7,7 @@ Description
 ---
 
 This repository contains a collection of HelloFX samples. Each one is a very simple 
-HelloWorld sample created with JavaFX 11 that can be run with different options and build tools.
+HelloWorld sample created with JavaFX 12 that can be run with different options and build tools.
 
 The related documentation for each sample can be found [here](https://openjfx.io/openjfx-docs/).
 
@@ -142,7 +142,7 @@ Gradle | [HelloFX project](IDE/Eclipse/Non-Modular/Gradle) | Non-modular project
 License<a name="License" />
 ---
 
-TODO
+This project is licensed under [BSD 3-Clause](LICENSE).
 
 
 Contributing<a name="Contributing" />
