@@ -20,7 +20,7 @@ JavaFX 12 match those on your machine.
 
 Clean, build and run from the NetBeans usual buttons, or from command line:
 
-    mvn clean compile package exec:java
+    mvn clean javafx:run
 
 As well, this will work from the terminal on Linux or Mac:
 
@@ -35,13 +35,11 @@ To create and run a custom JRE, from terminal:
 On Linux or Mac run:
 
     cd IDE/NetBeans/Modular/Maven/hellofx
-    export PATH_TO_FX_MODS=path/to/javafx-jmods-12
-    $JAVA_HOME/bin/jlink --module-path $PATH_TO_FX_MODS:target/hellofx-1.0-SNAPSHOT.jar --add-modules=hellofx --output jre
-    jre/bin/java -m hellofx/org.openjfx.MainApp
+    mvn clean javafx:jlink
+    target/hellofx/bin/launcher
 
 On Windows run:
 
     cd IDE\NetBeans\Modular\Maven\hellofx
-    set PATH_TO_FX_MODS="path\to\javafx-jmods-12"
-    %JAVA_HOME%\bin\jlink --module-path "%PATH_TO_FX_MODS%;target\hellofx-1.0-SNAPSHOT.jar" --add-modules=hellofx --output jre
-    jre\bin\java -m hellofx/org.openjfx.MainApp
+    mvn clean javafx:jlink
+    target\hellofx\bin\launcher

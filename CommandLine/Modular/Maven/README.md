@@ -2,35 +2,35 @@
 
 JavaFX 12 samples to run with different options and build tools.
 
+Download an appropriate [JDK 12](https://jdk.java.net/12/) for your operating system. Make sure `JAVA_HOME` 
+is properly set to the Java 12 installation directory. 
+
 ## Modular - Maven
 
 `hellofx` sample modular project to run with Maven
-
-Download [JavaFX jmods](https://gluonhq.com/products/javafx/) for your operating 
-system and unzip to a desired location.
 
 ### Linux / Mac
 
 If you run on Linux or Mac, follow these steps:
 
     cd CommandLine/Modular/Maven/hellofx
-    mvn clean package javafx:run
+    mvn clean javafx:run
 
-To create custom JRE:
+To create and run a custom JRE:
 
-    export PATH_TO_FX_MODS=path/to/javafx-jmods-12
-    $JAVA_HOME/bin/jlink --module-path $PATH_TO_FX_MODS:target/hellofx-1.0-SNAPSHOT.jar --add-modules hellofx --output jre
-    jre/bin/java -m hellofx/org.openjfx.MainApp
+    cd CommandLine/Modular/Maven/hellofx
+    mvn clean javafx:jlink
+    target/hellofx/bin/launcher
 
 ### Windows
 
 If you run on Windows, follow these steps:
 
     cd CommandLine\Modular\Maven\hellofx
-    mvn clean package javafx:run
+    mvn clean javafx:run
 
-To create custom JRE:
+To create and run a custom JRE:
 
-    set PATH_TO_FX_MODS="path\to\javafx-jmods-12"
-    jlink --module-path "%PATH_TO_FX_MODS%;target\hellofx-1.0-SNAPSHOT.jar" --add-modules hellofx --output jre
-    jre\bin\java -m hellofx/org.openjfx.MainApp
+    cd CommandLine/Modular/Maven/hellofx
+    mvn clean javafx:jlink
+    target\hellofx\bin\launcher
