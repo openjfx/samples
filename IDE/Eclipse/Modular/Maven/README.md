@@ -45,15 +45,11 @@ To create and run a custom JRE, from terminal:
 On Linux or Mac run:
 
     cd IDE/Eclipse/Modular/Maven/hellofx
-    mvn clean package
-    export PATH_TO_FX_MODS=path/to/javafx-jmods-12
-    $JAVA_HOME/bin/jlink --module-path $PATH_TO_FX_MODS:target/hellofx-0.0.1-SNAPSHOT.jar --add-modules=hellofx --output jre
-    jre/bin/java -m hellofx/org.openjfx.hellofx.App
+    mvn clean javafx:jlink
+    target/hellofx/bin/launcher
 
 On Windows run:
 
     cd IDE\Eclipse\Modular\Maven\hellofx
-    mvn clean package
-    set PATH_TO_FX_MODS="path\to\javafx-jmods-12"
-    jlink --module-path "%PATH_TO_FX_MODS%;target\hellofx-0.0.1-SNAPSHOT.jar" --add-modules=hellofx --output jre
-    jre\bin\java -m hellofx/org.openjfx.hellofx.App
+    mvn clean javafx:jlink
+    target\hellofx\bin\launcher
