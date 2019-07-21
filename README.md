@@ -150,7 +150,10 @@ Contributing<a name="Contributing" />
 
 This project welcomes all types of contributions and suggestions. 
 We encourage you to report issues, create suggestions and submit 
-[pull requests](https://help.github.com/articles/about-pull-requests/).
+pull requests.
+
+Contributions can be submitted via [pull requests](https://github.com/openjfx/samples/pulls/), 
+providing you have signed the [Gluon Individual Contributor License Agreement (CLA)](https://docs.google.com/forms/d/16aoFTmzs8lZTfiyrEm8YgMqMYaGQl0J8wA0VJE2LCCY).
 
 Please go through the [list of issues](https://github.com/openjfx/samples/issues) 
 to make sure that you are not duplicating an issue.
