@@ -34,7 +34,7 @@
             <plugin>
                 <groupId>org.openjfx</groupId>
                 <artifactId>javafx-maven-plugin</artifactId>
-                <version>0.0.2</version>
+                <version>0.0.3</version>
                 <configuration>
                     <release>12</release>
                     <jlinkImageName>hellofx</jlinkImageName>
