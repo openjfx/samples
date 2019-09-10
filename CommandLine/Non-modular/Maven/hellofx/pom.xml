@@ -9,6 +9,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.release>11</maven.compiler.release>
+        <javafx.version>13</javafx.version>
     </properties>
 
   <name>hellofx</name>
@@ -17,27 +19,29 @@
     <dependency>
       <groupId>org.openjfx</groupId>
       <artifactId>javafx-controls</artifactId>
-      <version>12.0.2</version>
+      <version>${javafx.version}</version>
     </dependency>
-    <!-- Uncomment for cross-platform fat jar
-    <dependency>
+    <!-- Uncomment for cross-platform fat jar-->
+    <!--
+      <dependency>
         <groupId>org.openjfx</groupId>
         <artifactId>javafx-graphics</artifactId>
-        <version>12.0.2</version>
+        <version>${javafx.version}</version>
         <classifier>win</classifier>
     </dependency>
     <dependency>
         <groupId>org.openjfx</groupId>
         <artifactId>javafx-graphics</artifactId>
-        <version>12.0.2</version>
+        <version>${javafx.version}</version>
         <classifier>linux</classifier>
     </dependency>
     <dependency>
         <groupId>org.openjfx</groupId>
         <artifactId>javafx-graphics</artifactId>
-        <version>12.0.2</version>
+        <version>${javafx.version}</version>
         <classifier>mac</classifier>
-    </dependency> -->
+    </dependency>
+    -->
   </dependencies>
   
   <build>
@@ -47,7 +51,7 @@
               <artifactId>maven-compiler-plugin</artifactId>
               <version>3.8.1</version>
               <configuration>
-                  <release>12</release>
+                  <release>${maven.compiler.release}</release>
               </configuration>
           </plugin>
           <plugin>

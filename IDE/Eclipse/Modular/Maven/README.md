@@ -1,13 +1,13 @@
 ## Modular samples for Eclipse
 
-JavaFX 12 samples to run from Eclipse with different options and build tools
+JavaFX 13 samples to run from Eclipse with different options and build tools
 
 Version Eclipse: 2019-03 (4.11.0)
 
-Install this patch from MarketPlace: `Java 12 support for Eclipse 2019-03 (4.11)`.
+Download [JDK 11 or later](http://jdk.java.net/) for your operating system.
+Make sure `JAVA_HOME` is properly set to the JDK installation directory.
 
-Download an appropriate [JDK 12](https://jdk.java.net/12/) for your operating system. Make sure `JAVA_HOME` 
-is properly set to the Java 12 installation directory. 
+**N.B**: If you use JDK 12, install this patch from MarketPlace: `Java 12 support for Eclipse 2019-03 (4.11)`.
 
 ### Maven
 
@@ -17,8 +17,8 @@ For the first time only:
 
 - Add the JavaFX Maven archetypes `org.openjfx:javafx-archetype-simple:0.0.1` and `org.openjfx:javafx-archetype-fxml:0.0.1`
 
-Clone the sample, open it with Eclipse, and make sure the paths for Java 12 and 
-JavaFX 12 match those on your machine.
+Clone the sample, open it with Eclipse, and make sure the paths for JDK and 
+JavaFX match those on your machine.
 
 Run with `Run configurations -> Maven Build -> hellofx`.
 
@@ -30,7 +30,7 @@ Note: on Windows, under Eclipse running Oracle JDK 1.8, you need to add `-Djava.
 to the JavaFX maven plugin:
 
     <configuration>
-        <executable>/path/to/Java/12/bin/java</executable>
+        <executable>/path/to/JDK/bin/java</executable>
         <options>
             <option>-Djava.library.path=C:\tmp</option>
         </options>
