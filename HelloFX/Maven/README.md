@@ -1,9 +1,9 @@
 # HelloFX Sample
 
-JavaFX 12 HelloFX sample to run with different options and build tools.
+JavaFX 13 HelloFX sample to run with different options and build tools.
 
-Download an appropriate [JDK 12](https://jdk.java.net/12/) for your operating system. Make sure `JAVA_HOME` 
-is properly set to the Java 12 installation directory. 
+Download [JDK 11 or later](http://jdk.java.net/) for your operating system.
+Make sure `JAVA_HOME` is properly set to the JDK installation directory. 
 
 ## Maven
 
