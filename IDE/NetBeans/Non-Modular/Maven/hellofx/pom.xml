@@ -7,7 +7,8 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>11</maven.compiler.release>
-        <javafx.version>13</javafx.version>
+        <javafx.version>16</javafx.version>
+        <javafx.maven.plugin.version>0.0.6</javafx.maven.plugin.version>
     </properties>
     <dependencies>
         <dependency>
@@ -34,7 +35,7 @@
             <plugin>
                 <groupId>org.openjfx</groupId>
                 <artifactId>javafx-maven-plugin</artifactId>
-                <version>0.0.3</version>
+                <version>${javafx.maven.plugin.version}</version>
                 <configuration>
                     <mainClass>org.openjfx.hellofx.App</mainClass>
                 </configuration>
