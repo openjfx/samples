@@ -1,0 +1,23 @@
+plugins {
+  id 'application'
+  id 'org.openjfx.javafxplugin' version '0.0.10'
+  id 'org.beryx.jlink' version '2.24.4'
+}
+
+repositories {
+    mavenCentral()
+}
+
+javafx {
+    version = "17.0.1"
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
+}
+
+mainClassName = "$moduleName/org.openjfx.MainApp"
+
+jlink {
+    options = ['--strip-debug', '--compress', '2', '--no-header-files', '--no-man-pages']
+    launcher {
+        name = 'hellofx'
+    }
+}
