@@ -16,6 +16,6 @@ For the first time only:
 
 - Clone the sample, open the folder `hellofx` in Visual Studio Code.
 
-To run the JavaFX application, you can open the `Gadle Projects` explorer, expand `hellofx` > `Tasks` > `application` and run the Gradle task: `run`
+To run the JavaFX application, you can open the `Gradle Projects` explorer, expand `hellofx` > `Tasks` > `application` and run the Gradle task: `run`
 
 ![Run](./run.png)
