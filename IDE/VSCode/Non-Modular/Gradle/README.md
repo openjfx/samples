@@ -19,3 +19,15 @@ For the first time only:
 To run the JavaFX application, you can open the `Gradle Projects` explorer, expand `hellofx` > `Tasks` > `application` and run the Gradle task: `run`
 
 ![Run](./run.png)
+
+Or alternatively run from terminal:
+
+On Linux or Mac run:
+
+    cd IDE/VSCode/Non-Modular/Gradle/hellofx
+    ./gradlew run
+
+On Windows run:
+
+    cd IDE\VSCode\Non-Modular\Gradle\hellofx
+    .\gradlew.bat run

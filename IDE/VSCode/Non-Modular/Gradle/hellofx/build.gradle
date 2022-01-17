@@ -12,4 +12,6 @@ javafx {
     modules = [ 'javafx.controls', 'javafx.fxml' ]
 }
 
-mainClassName = 'org.openjfx.MainApp'
+application {
+    mainClass = 'org.openjfx.MainApp'
+}

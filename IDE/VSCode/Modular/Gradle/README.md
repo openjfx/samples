@@ -16,13 +16,27 @@ For the first time only:
 
 - Clone the sample, open the folder `hellofx` in Visual Studio Code.
 
-To run the JavaFX application, you can open the `Gradle Projects` explorer, expand `hellofx` > `Tasks` > `application` and run the Gradle task: `run`
+To run the JavaFX application, you can open the `Gradle Projects` explorer, expand `hellofx` > `Tasks` > `application` and run the Gradle task: `run`.
 
 ![Run](./run.png)
 
+Or alternatively run from terminal:
+
+On Linux or Mac run:
+
+    cd IDE/VSCode/Modular/Gradle/hellofx
+    ./gradlew run
+
+On Windows run:
+
+    cd IDE\VSCode\Modular\Gradle\hellofx
+    .\gradlew.bat run
+
 #### Custom Runtime
 
-To create and run a custom JRE, from terminal:
+To create and run a custom JRE, you can open the `Gradle Projects` explorer, expand `hellofx` > `Tasks` > `build` and run the Gradle task: `jlink`. The executable file will be generated at `build/image/bin/hellofx` (Or `build\image\bin\hellofx.bat` on Windows).
+
+Or alternatively run from terminal:
 
 On Linux or Mac run:
 

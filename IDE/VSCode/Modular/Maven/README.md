@@ -16,13 +16,17 @@ For the first time only:
 
 #### Run the JavaFX Application
 
-To run the JavaFX application, you can open the `Maven` explorer, expand `hellofx` > `Plugins` > `javafx` and run the Maven goal: `javafx:run`
+To run the JavaFX application, you can open the `Maven` explorer, expand `hellofx` > `Plugins` > `javafx` and run the Maven goal: `javafx:run`.
 
 ![Run](./run.png)
 
+Or alternatively run from terminal: `mvn javafx:run`
+
 #### Custom Runtime
 
-To create and run a custom JRE, from terminal:
+To create and run a custom JRE, you can open the `Maven` explorer, expand `hellofx` > `Plugins` > `javafx` and run the Maven goal: `javafx:jlink`. The executable file will be generated at `target/hellofx/bin/launcher` (Or `target\hellofx\bin\launcher.bat` on Windows).
+
+Or alternatively run from terminal:
 
 On Linux or Mac run:
 

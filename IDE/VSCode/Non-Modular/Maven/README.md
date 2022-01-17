@@ -19,3 +19,5 @@ For the first time only:
 To run the JavaFX application, you can open the `Maven` explorer, expand `hellofx` > `Plugins` > `javafx` and run the Maven goal: `javafx:run`
 
 ![Run](./run.png)
+
+Or alternatively run from terminal: `mvn javafx:run`
