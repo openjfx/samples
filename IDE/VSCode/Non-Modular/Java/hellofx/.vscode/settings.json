@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "<JavaFX_lib_path>/**/*.jar",
+    ]
+}

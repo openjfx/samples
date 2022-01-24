@@ -32,6 +32,9 @@ Content
     - [Eclipse](#Eclipse)  
       [_Modular samples_](#Eclipse-Modular-Samples)  
       [_Non-modular samples_](#Eclipse-Non-Modular-Samples)
+    - [Visual Studio Code](#VSCode)  
+      [_Modular samples_](#VSCode-Modular-Samples)  
+      [_Non-modular samples_](#VSCode-Non-Modular-Samples)
 * [License](#License)
 * [Contributing](#Contributing)
 
@@ -136,6 +139,24 @@ Build Tool | Sample | Description
 Java | [HelloFX project](IDE/Eclipse/Non-Modular/Java) | Non-modular project to run from Eclipse.
 Maven | [HelloFX project](IDE/Eclipse/Non-Modular/Maven) | Non-modular project to run from Eclipse, with Maven.
 Gradle | [HelloFX project](IDE/Eclipse/Non-Modular/Gradle) | Non-modular project to run from Eclipse, with Gradle.
+
+
+### Visual Studio Code<a name="VSCode" />
+
+#### _Modular samples_<a name="VSCode-Modular-Samples" />
+
+Build Tool | Sample | Description
+---------- | ------ | -----------
+Maven | [HelloFX project](IDE/VSCode/Modular/Maven) | Modular project to run from Visual Studio Code, with Maven.
+Gradle | [HelloFX project](IDE/VSCode/Modular/Gradle) | Modular project to run from Visual Studio Code, with Gradle.
+
+#### _Non-modular samples_<a name="VSCode-Non-Modular-Samples" />
+
+Build Tool | Sample | Description
+---------- | ------ | -----------
+Java | [HelloFX project](IDE/VSCode/Non-Modular/Java) | Non-modular project to run from Visual Studio Code.
+Maven | [HelloFX project](IDE/VSCode/Non-Modular/Maven) | Non-modular project to run from Visual Studio Code, with Maven.
+Gradle | [HelloFX project](IDE/VSCode/Non-Modular/Gradle) | Non-modular project to run from Visual Studio Code, with Gradle.
 
 
 
