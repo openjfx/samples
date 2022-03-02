@@ -13,15 +13,17 @@ Clone the sample, open it with IntelliJ, and make sure the paths for JDK and Jav
 
 Run from command line:
 
+    cd samples/IDE/IntelliJ/Modular/Maven/hellofx
     mvn clean javafx:run
+    cd ..
 
 As well, this will work from the terminal on Linux or Mac:
 
-    java --module-path $PATH_TO_FX:target/hellofx-1.0-SNAPSHOT.jar -m hellofx/org.openjfx.MainApp
+    java --module-path $PATH_TO_FX:target/hellofx-1.0-SNAPSHOT.jar -m hellofx/org.openjfx.App
 
 or on Windows:
     
-    java --module-path %PATH_TO_FX%:target\hellofx-1.0-SNAPSHOT.jar -m hellofx/org.openjfx.MainApp
+    java --module-path %PATH_TO_FX%:target\hellofx-1.0-SNAPSHOT.jar -m hellofx/org.openjfx.App
 
 To create and run a custom JRE, from terminal:
 
