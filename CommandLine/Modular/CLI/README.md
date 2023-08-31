@@ -1,8 +1,8 @@
 # samples
 
-JavaFX 13 samples to run with different options and build tools.
+JavaFX samples to run with different options and build tools.
 
-Download [JDK 11 or later](http://jdk.java.net/) for your operating system.
+Download [JDK 17 or later](http://jdk.java.net/) for your operating system.
 Make sure `JAVA_HOME` is properly set to the JDK installation directory. 
 
 Download [JavaFX SDK](https://gluonhq.com/products/javafx/) for your operating 
@@ -20,7 +20,7 @@ system and unzip to a desired location.
 If you run on Linux or Mac, follow these steps:
 
     cd CommandLine/Modular/CLI/hellofx
-    export PATH_TO_FX=path/to/javafx-sdk-13/lib
+    export PATH_TO_FX=path/to/javafx-sdk/lib
     export PATH_TO_FX_MODS=path/to/javafx-jmods-13
     javac --module-path $PATH_TO_FX -d mods/hellofx $(find src -name "*.java")
     
@@ -38,7 +38,7 @@ To create and run a custom JRE:
 If you run on Windows, follow these steps:
 
     cd CommandLine\Modular\CLI\hellofx
-    set PATH_TO_FX="path\to\javafx-sdk-13\lib"
+    set PATH_TO_FX="path\to\javafx-sdk\lib"
     set PATH_TO_FX_MODS="path\to\javafx-jmods-13"
     dir /s /b src\*.java > sources.txt & javac --module-path %PATH_TO_FX% -d mods/hellofx @sources.txt & del sources.txt
 

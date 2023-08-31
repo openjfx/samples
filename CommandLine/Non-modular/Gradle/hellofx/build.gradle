@@ -1,21 +1,14 @@
 plugins {
     id 'application'
-    id 'org.openjfx.javafxplugin' version '0.0.9'
+    id 'org.openjfx.javafxplugin' version '0.0.15-SNAPSHOT'
 }
 
 repositories {
     mavenCentral()
 }
 
-dependencies {
-    /* uncomment for cross-platform jar: */
-//    runtimeOnly "org.openjfx:javafx-graphics:$javafx.version:win"
-//    runtimeOnly "org.openjfx:javafx-graphics:$javafx.version:linux"
-//    runtimeOnly "org.openjfx:javafx-graphics:$javafx.version:mac"
-}
-
 javafx {
-    version = "16"
+    version = "20"
     modules = [ 'javafx.controls' ]
 }
 

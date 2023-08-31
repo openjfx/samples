@@ -7,7 +7,7 @@ Description
 ---
 
 This repository contains a collection of HelloFX samples. Each one is a very simple 
-HelloWorld sample created with JavaFX 13 that can be run with different options and build tools.
+HelloWorld sample created with JavaFX that can be run with different options and build tools.
 
 The related documentation for each sample can be found [here](https://openjfx.io/openjfx-docs/).
 
