@@ -1,7 +1,7 @@
 plugins {
   id 'application'
   id 'eclipse'
-  id 'org.openjfx.javafxplugin' version '0.0.15-SNAPSHOT'
+  id 'org.openjfx.javafxplugin' version '0.1.0'
   id 'org.beryx.jlink' version '2.26.0'
 }
 
@@ -14,7 +14,10 @@ javafx {
     modules = [ 'javafx.controls', 'javafx.fxml' ]
 }
 
-mainClassName = "$moduleName/org.openjfx.MainApp"
+application {
+    mainClass = "org.openjfx.MainApp"
+    mainModule = "hellofx"
+}
 
 eclipse {
     classpath {

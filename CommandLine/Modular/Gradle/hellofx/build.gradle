@@ -1,6 +1,6 @@
 plugins {
   id 'application'
-  id 'org.openjfx.javafxplugin' version '0.0.15-SNAPSHOT'
+  id 'org.openjfx.javafxplugin' version '0.1.0'
   id 'org.beryx.jlink' version '2.26.0'
 }
 
@@ -13,7 +13,10 @@ javafx {
     modules = [ 'javafx.controls' ]
 }
 
-mainClassName = "hellofx.HelloFX"
+application {
+    mainClass = "hellofx.HelloFX"
+    mainModule = "hellofx"
+}
 
 
 jlink {
