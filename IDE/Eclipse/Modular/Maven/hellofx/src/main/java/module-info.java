@@ -3,6 +3,6 @@ module hellofx {
     requires javafx.fxml;
     requires transitive javafx.graphics;
     
-    opens org.openjfx to javafx.fxml;
+    opens org.openjfx.hellofx to javafx.fxml;
     exports org.openjfx.hellofx;
 }
