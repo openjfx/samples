@@ -5,6 +5,9 @@ target/
 # Maven
 build/
 
+# Eclipse
+bin/
+
 # IntelliJ IDEA
 .idea/
 *.iml
