@@ -7,6 +7,13 @@ repositories {
     mavenCentral()
 }
 
+dependencies {
+    /* uncomment for cross-platform jar: */
+//    runtimeOnly "org.openjfx:javafx-graphics:$javafx.version:win"
+//    runtimeOnly "org.openjfx:javafx-graphics:$javafx.version:linux"
+//    runtimeOnly "org.openjfx:javafx-graphics:$javafx.version:mac"
+}
+
 javafx {
     version = "21"
     modules = [ 'javafx.controls' ]
