@@ -19,13 +19,13 @@ To create and run a custom JRE, from terminal:
 On Linux or Mac run:
 
     cd IDE/Eclipse/Modular/Java/HelloFX
-    export PATH_TO_FX_MODS=path/to/javafx-jmods-13
+    export PATH_TO_FX_MODS=path/to/javafx-jmods
     $JAVA_HOME/bin/jlink --module-path $PATH_TO_FX_MODS:bin/hellofx --add-modules=hellofx --output jre
     jre/bin/java -m hellofx/org.openjfx.MainApp
 
 On Windows run:
 
     cd IDE\Eclipse\Modular\Java\HelloFX
-    set PATH_TO_FX_MODS="path\to\javafx-jmods-13"
+    set PATH_TO_FX_MODS="path\to\javafx-jmods"
     jlink --module-path "%PATH_TO_FX_MODS%;bin\hellofx" --add-modules=hellofx --output jre
     jre\bin\java -m hellofx/org.openjfx.MainApp

@@ -21,7 +21,7 @@ If you run on Linux or Mac, follow these steps:
 
     cd CommandLine/Modular/CLI/hellofx
     export PATH_TO_FX=path/to/javafx-sdk/lib
-    export PATH_TO_FX_MODS=path/to/javafx-jmods-13
+    export PATH_TO_FX_MODS=path/to/javafx-jmods
     javac --module-path $PATH_TO_FX -d mods/hellofx $(find src -name "*.java")
     
 To run the project:
@@ -39,7 +39,7 @@ If you run on Windows, follow these steps:
 
     cd CommandLine\Modular\CLI\hellofx
     set PATH_TO_FX="path\to\javafx-sdk\lib"
-    set PATH_TO_FX_MODS="path\to\javafx-jmods-13"
+    set PATH_TO_FX_MODS="path\to\javafx-jmods"
     dir /s /b src\*.java > sources.txt & javac --module-path %PATH_TO_FX% -d mods/hellofx @sources.txt & del sources.txt
 
 To run the project:
