@@ -19,18 +19,6 @@ application {
     mainModule = "hellofx"
 }
 
-eclipse {
-    classpath {
-        file {
-            whenMerged {
-                entries.findAll { it.properties.kind.equals('lib') }.each {
-                    it.entryAttributes['module'] = 'true'
-                }
-            }
-        }
-    }
-}
-
 jlink {
     options = ['--strip-debug', '--compress', '2', '--no-header-files', '--no-man-pages']
     launcher {
