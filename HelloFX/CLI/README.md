@@ -1,8 +1,8 @@
 # HelloFX Sample
 
-JavaFX 13 HelloFX sample to run with different options and build tools.
+JavaFX HelloFX sample to run with different options and build tools.
 
-Download [JDK 11 or later](http://jdk.java.net/) for your operating system.
+Download [JDK 17 or later](http://jdk.java.net/) for your operating system.
 Make sure `JAVA_HOME` is properly set to the JDK installation directory. 
 
 ## CLI
@@ -15,7 +15,7 @@ system and unzip to a desired location.
 If you run on Linux or Mac, follow these steps:
 
     cd HelloFX/CLI/hellofx
-    export PATH_TO_FX=path/to/javafx-sdk-13/lib
+    export PATH_TO_FX=path/to/javafx-sdk/lib
 
 Compile:
 
@@ -30,7 +30,7 @@ Run:
 If you run on Windows, follow these steps:
 
     cd HelloFX\CLI\hellofx
-    set PATH_TO_FX="path\to\javafx-sdk-13\lib"
+    set PATH_TO_FX="path\to\javafx-sdk\lib"
 
 Compile:
 

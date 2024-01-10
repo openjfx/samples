@@ -1,0 +1,16 @@
+# Gradle
+.gradle/
+target/
+
+# Maven
+build/
+
+# Eclipse
+bin/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+MacOS
+.DS_Store

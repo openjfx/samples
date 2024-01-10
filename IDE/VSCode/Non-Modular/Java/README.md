@@ -4,7 +4,7 @@ JavaFX 17 samples to run from Visual Studio Code with different options and buil
 
 Version Visual Studio Code: 1.63.0 or higher.
 
-Download [JDK 11 or later](http://jdk.java.net/) for your operating system. Make sure `JAVA_HOME` is properly set to the JDK installation directory.
+Download [JDK 17 or later](http://jdk.java.net/) for your operating system. Make sure `JAVA_HOME` is properly set to the JDK installation directory.
 
 ### Java
 

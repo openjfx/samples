@@ -1,8 +1,8 @@
 # samples
 
-JavaFX 13 samples to run with different options and build tools.
+JavaFX samples to run with different options and build tools.
 
-Download [JDK 11 or later](http://jdk.java.net/) for your operating system.
+Download [JDK 17 or later](http://jdk.java.net/) for your operating system.
 Make sure `JAVA_HOME` is properly set to the JDK installation directory. 
 
 ## Non-modular - Maven
